@@ -1,0 +1,3 @@
+# Src code base - Lab IC Verification and Testing (ET4356)
+
+Using SystemVerilog and Verilog to verify and test the IC...
