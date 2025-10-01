@@ -1,0 +1,120 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+ 
+
+/********************************************************************/ 
+
+/*                                                                  */
+
+/*  CODE: 	 	 Lab 1 FOR ECE745                           		*/
+
+/*	  	                                                    		*/
+
+/*  DESCRIPTION: A Simple ALU  									    */
+
+/*                       											*/
+
+/*  DATE:        August 8, 2009                                     */
+
+/*             				                                        */
+
+/********************************************************************/
+
+
+
+//------------------------------------------------------------------
+
+//						MODULE DECLARATION							
+
+//------------------------------------------------------------------
+
+module Basic_ALU 	( 
+
+					clock, 
+
+					reset, 
+
+					enable, 
+
+					aluin1, 
+
+					aluin2, 
+
+                    aluoperation, 
+
+					aluopselect, 
+
+					aluout  );
+
+					
+
+//------------------------------------------------------------------
+
+//						PARAMETER DECLARATION		  				
+
+//------------------------------------------------------------------
+
+    
+
+	parameter   reg_wd    	=  32;
+
+	parameter	[0:3] 
+
+
+
+				ADD	= 8'b001,
+
+				SUB	= 8'b010,
+
+				NOT	= 8'b011,
+
+				AND	= 8'b100,
+
+				OR	= 8'b101,
+
+				XOR	= 8'b110;
+
+				
+
+
+
+//-----------------------------------------------------------------
+
+//						PORT DECLARATION		  			   	   
+
+//-----------------------------------------------------------------
+
+    input                   			clock, reset, enable;
+
+    input     		[reg_wd -1:0]   	aluin1, aluin2;
+
+    input   		[2:0]           	aluoperation, aluopselect;
+
+    output   reg   	[reg_wd:0]   		aluout;
+
+
+
+
+
+//-----------------------------------------------------------------
+
+//						MAIN DESIGN CODE		  			   	   
+
+//-----------------------------------------------------------------
+
+
+
+`protected	
+    MTI!#_{vI?}$HanH+HO7]}<^BW5g3$B!1CQ?|.?X7[:ix!kkEiTYAZD-Ykp=SN%K<p<B;R#~w75{
+    r?_@R=Owo}#kE}$[$i!!7v\oCe_7v~E='\{Ce,}kE}K-L0WT{C[@-Y(gx'Z=BV1O*TOZ7gQB,<jk
+    z=Nkx1IfZ[}2]*iX=JQQ3<^#z-+VmYDexTnYDs'[s,jAl3Vx27e2bED\OPj{Sv;r5D#Yx[T[O~5x
+    5}{SAa^5k}+'2xe'E-,YQ}sE{U>RU]spn,>5ZT;1wT,X@9s-^w|pW;Gb7n1k=w,+}u*AV@@^Hs'A
+    F#=nnAGTs7'Tn-\RIr!!K$W5avVm3$A=s$I'U!e\RUv~DBeo*<sRxZ_~7f+}{[$-2>O?\Y6Y1'}V
+    iu,L7,~!H{wnBdZ+R2?7iKIvA^TaGiMaB0o=Cl}D[ZB{AOe;DVpN*:E23I?]naU7wGU7sDo}wnbU
+    U{Deux!:e!RlDG^e>$ZOHB3j]U-Q#,rOrE}lC[?tSNX[<O"Z<+ewQ_vYmD[+SQ{[*w[*ZvlB<_}p
+    z!GD]o3xjl2X#f3}la<D#}epYnnaZzq!X=[nH-2Ps*ilzI5CCBGE.z-<[<=\+AC^Ky7^T>#V\=$_
+    c#U~lvABO[{{Wr@^mdVI}[}~RUp~]>-SM']Zn#-z#
+`endprotected
+

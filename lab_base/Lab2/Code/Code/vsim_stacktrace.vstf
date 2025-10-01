@@ -1,0 +1,17 @@
+# Current time Sun Sep  6 01:48:51 2009
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.3d"
+# Version = "2007.11"
+# Date = "Nov 26 2007"
+# Platform = linux
+# 0    0x081797ac: '<unknown (@0x81797ac)>'
+# 1    0x08164803: '<unknown (@0x8164803)>'
+# 2    0xb6d66597: '/ncsu/myadav/QuestaSim_Labs/Labs_2009/New_Labs/Lab2/Basic_ALU.tb.sv:86'
+# 3    0x080e3919: '<unknown (@0x80e3919)>'
+# 4    0x08163baa: '<unknown (@0x8163baa)>'
+# 5    0x080f4dbf: '<unknown (@0x80f4dbf)>'
+# 6    0x08173677: '<unknown (@0x8173677)>'
+# End of Stack Trace
+
+

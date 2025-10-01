@@ -1,0 +1,17 @@
+# ** Warning: (vish-14) Failed to open "modelsim.ini" specified by the MODELSIM environment variable. Using "modelsim.ini" instead.
+# No such file or directory. (errno = ENOENT)
+# //  ModelSim SE 6.3d Nov 26 2007 Linux 2.6.18-128.1.10.el5PAE
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt Execute_test_top 
+# ** Error: (vsim-23) Unable to change to directory path "work".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+quit
