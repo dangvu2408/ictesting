@@ -1,8 +1,10 @@
 m255
 K4
 z2
-!s12c _opt1
+!s12c _opt2
 Z0 !s99 nomlopt
+!s12c _opt1
+R0
 !s12c _opt
 R0
 !s11f vlog 2024.1 2024.02, Feb  1 2024
@@ -36,99 +38,159 @@ R0
 R2
 R3
 R4
-o-quiet -auto_acc_if_foreign -work work +acc
+Z7 o-quiet -auto_acc_if_foreign -work work +acc
 R5
 n@_opt1
 R6
+R1
+T_opt2
+!s110 1759330208
+VZ7L]zX7aOOXlJ[iJ]A<Zb0
+04 10 4 work tb_addbit1 fast 0
+=1-b48c9d17587f-68dd3fa0-202-fc0
+R0
+R2
+R3
+R4
+R7
+R5
+n@_opt2
+R6
 vaddbit
 2D:\backup_later\ET4356\QuestaSim\white_space.v
-Z7 !s110 1759328883
+Z8 !s110 1759330199
 !i10b 1
 !s100 N7AY[6;K88PWB@_9IFOO42
 I=`TXC^H2X]C`?gSH69Fh?2
-Z8 dD:/backup_later/ET4356/QuestaSim
+Z9 dD:/backup_later/ET4356/QuestaSim
 w1759328603
 8D:\backup_later\ET4356\QuestaSim\white_space.v
 FD:\backup_later\ET4356\QuestaSim\white_space.v
-!i122 7
+!i122 28
 L0 1 18
-Z9 VDg1SIo80bB@j0V0VzS_@n1
-Z10 OL;L;2024.1;79
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2024.1;79
 r1
 !s85 0
 31
-Z11 !s108 1759328883.000000
+Z12 !s108 1759330199.000000
 !s107 D:\backup_later\ET4356\QuestaSim\white_space.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\white_space.v|
 !i113 0
-Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vaddbit1
+2D:\backup_later\ET4356\QuestaSim\comment.v
+R8
+!i10b 1
+!s100 ]1nWVn[3mhk3fk1dzLdR[0
+IYSf9538BhWGk_=_OhNkI?2
+R9
+w1759330113
+8D:\backup_later\ET4356\QuestaSim\comment.v
+FD:\backup_later\ET4356\QuestaSim\comment.v
+!i122 30
+L0 4 22
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 D:\backup_later\ET4356\QuestaSim\comment.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\comment.v|
+!i113 0
+R13
 R5
 vand_gate
 2D:/backup_later/ET4356/QuestaSim/and_gate.v
-R7
+R8
 !i10b 1
 !s100 @=Sg9UjUMh<DLH_kRZ4>?1
 I2g5PdLJ<60Jj;PM5`i7TZ3
-R8
+R9
 w1759321526
 8D:/backup_later/ET4356/QuestaSim/and_gate.v
 FD:/backup_later/ET4356/QuestaSim/and_gate.v
-!i122 5
+!i122 26
 L0 1 6
-R9
 R10
+R11
 r1
 !s85 0
 31
-R11
+R12
 !s107 D:/backup_later/ET4356/QuestaSim/and_gate.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/and_gate.v|
 !i113 0
-R12
+R13
 R5
 vtb_addbit
 2D:\backup_later\ET4356\QuestaSim\tb_white_space.v
-R7
+R8
 !i10b 1
 !s100 64S[[HVEJ5Ziokcol=zQ;3
 ITHKWL=EhdZ=Ll1MRB2XF:2
-R8
+R9
 w1759328879
 8D:\backup_later\ET4356\QuestaSim\tb_white_space.v
 FD:\backup_later\ET4356\QuestaSim\tb_white_space.v
-!i122 8
-L0 3 33
-R9
+!i122 29
+Z14 L0 3 33
 R10
+R11
 r1
 !s85 0
 31
-R11
+R12
 !s107 D:\backup_later\ET4356\QuestaSim\tb_white_space.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\tb_white_space.v|
 !i113 0
-R12
+R13
 R5
-vtb_and_gate
-2D:\backup_later\ET4356\QuestaSim\tb_and_gate.v
-R7
-!i10b 1
-!s100 ezOPPha?mkI]D[QSHQ]Gf1
-Iafoak3]34aVH;PDTcb6a91
+vtb_addbit1
+2D:\backup_later\ET4356\QuestaSim\tb_comment.v
 R8
-w1759321666
-8D:\backup_later\ET4356\QuestaSim\tb_and_gate.v
-FD:\backup_later\ET4356\QuestaSim\tb_and_gate.v
-!i122 6
-L0 2 19
+!i10b 1
+!s100 zi19MKH4VZRYl;Yg_QfNZ0
+ITP?61e1nFjknAVjBkXnlB2
 R9
+w1759330194
+8D:\backup_later\ET4356\QuestaSim\tb_comment.v
+FD:\backup_later\ET4356\QuestaSim\tb_comment.v
+!i122 31
+R14
 R10
+R11
 r1
 !s85 0
 31
+R12
+!s107 D:\backup_later\ET4356\QuestaSim\tb_comment.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\tb_comment.v|
+!i113 0
+R13
+R5
+vtb_and_gate
+2D:\backup_later\ET4356\QuestaSim\tb_and_gate.v
+R8
+!i10b 1
+!s100 ezOPPha?mkI]D[QSHQ]Gf1
+Iafoak3]34aVH;PDTcb6a91
+R9
+w1759321666
+8D:\backup_later\ET4356\QuestaSim\tb_and_gate.v
+FD:\backup_later\ET4356\QuestaSim\tb_and_gate.v
+!i122 27
+L0 2 19
+R10
 R11
+r1
+!s85 0
+31
+R12
 !s107 D:\backup_later\ET4356\QuestaSim\tb_and_gate.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\tb_and_gate.v|
 !i113 0
-R12
+R13
 R5
