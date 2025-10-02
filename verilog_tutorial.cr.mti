@@ -1,9 +1,9 @@
-D:/backup_later/ET4356/QuestaSim/comment.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\comment.v}
+D:/backup_later/ET4356/QuestaSim/escape_identifiers.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/escape_identifiers.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module addbit1
+-- Compiling module \1dff 
 
 Top level modules:
-	addbit1
+	\1dff 
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/and_gate.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/and_gate.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
@@ -12,21 +12,35 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	and_gate
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/white_space.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\white_space.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/comment.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/comment.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module addbit
+-- Compiling module addbit1
 
 Top level modules:
-	addbit
+	addbit1
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/tb_and_gate.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\tb_and_gate.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/comment_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\comment_tb.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_addbit1
+
+Top level modules:
+	tb_addbit1
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/tb_and_gate.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/tb_and_gate.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_and_gate
 
 Top level modules:
 	tb_and_gate
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/tb_white_space.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\tb_white_space.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/white_space.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/white_space.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module addbit
+
+Top level modules:
+	addbit
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/white_space_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\white_space_tb.v}
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_addbit
 
