@@ -1,4 +1,4 @@
-D:/backup_later/ET4356/QuestaSim/parity_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\parity_tb.v}
+D:/backup_later/ET4356/QuestaSim/parity_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/parity_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_parity
 
@@ -12,28 +12,49 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	tb_and_gate
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/parity.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\parity.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/test_wand.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\test_wand.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module test_wand
+
+Top level modules:
+	test_wand
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/parity.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/parity.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module parity
 
 Top level modules:
 	parity
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/adder_named_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\adder_named_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/adder_named_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/adder_named_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_adder_named
 
 Top level modules:
 	tb_adder_named
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/signed_number.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\signed_number.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/alu_option.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\alu_option.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module test_casex
+
+Top level modules:
+	test_casex
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/strings.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\strings.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module strings
+
+Top level modules:
+	strings
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/signed_number.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/signed_number.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module signed_number
 
 Top level modules:
 	signed_number
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/adder_implicit.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\adder_implicit.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/adder_implicit.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/adder_implicit.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module adder_implicit
 
@@ -55,7 +76,14 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	addbit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/adder_higher.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\adder_higher.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/test_tri.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\test_tri.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module test_tri
+
+Top level modules:
+	test_tri
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/adder_higher.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/adder_higher.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module addbit_module
 -- Compiling module adder_higher
@@ -64,62 +92,75 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	tb
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/escape_identifiers.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\escape_identifiers.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/escape_identifiers.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/escape_identifiers.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module \1dff 
 
 Top level modules:
 	\1dff 
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_implicit_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\addbit_implicit_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/test_wor.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\test_wor.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module test_wor
+
+Top level modules:
+	test_wor
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_implicit_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/addbit_implicit_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_adder_implicit
 
 Top level modules:
 	tb_adder_implicit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/connect_explicit_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\connect_explicit_tb.v}
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tb_connect_explicit
-
-Top level modules:
-	tb_connect_explicit
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/comment_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\comment_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/comment_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/comment_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_addbit1
 
 Top level modules:
 	tb_addbit1
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/connect_implicit_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\connect_implicit_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/connect_explicit_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/connect_explicit_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tb_connect_implicit
+-- Compiling module tb_connect_explicit
 
 Top level modules:
-	tb_connect_implicit
+	tb_connect_explicit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/white_space_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\white_space_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/white_space_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/white_space_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_addbit
 
 Top level modules:
 	tb_addbit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_module_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\addbit_module_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/connect_implicit_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/connect_implicit_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_connect_implicit
+
+Top level modules:
+	tb_connect_implicit
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_module_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/addbit_module_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_addbit_module
 
 Top level modules:
 	tb_addbit_module
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/connect_explicit.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\connect_explicit.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/escape_identifiers_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/escape_identifiers_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module connect_explicit
--- Compiling module dff
+-- Compiling module tb_1dff
 
 Top level modules:
-	connect_explicit
+	tb_1dff
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/and_gate.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/and_gate.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module and_gate
+
+Top level modules:
+	and_gate
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/comment.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/comment.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
@@ -128,28 +169,29 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	addbit1
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/and_gate.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\and_gate.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/connect_explicit.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/connect_explicit.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module and_gate
+-- Compiling module connect_explicit
+-- Compiling module dff
 
 Top level modules:
-	and_gate
+	connect_explicit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/escape_identifiers_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\escape_identifiers_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/test_trireg.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\test_trireg.v}
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tb_1dff
+-- Compiling module test_trireg
 
 Top level modules:
-	tb_1dff
+	test_trireg
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/adder_named.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\adder_named.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/adder_named.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/adder_named.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module adder_named
 
 Top level modules:
 	adder_named
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_module.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\addbit_module.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/addbit_module.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/addbit_module.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module addbit_module
 
