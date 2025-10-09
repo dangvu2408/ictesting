@@ -1,0 +1,57 @@
+D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\encoder_8to3_tb.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module encoder8to3_tb
+
+Top level modules:
+	encoder8to3_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module demux1to8
+
+Top level modules:
+	demux1to8
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module mux8to1
+
+Top level modules:
+	mux8to1
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\decoder_3to8.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module decoder3to8
+
+Top level modules:
+	decoder3to8
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_demux1to8
+
+Top level modules:
+	tb_demux1to8
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_mux8to1
+
+Top level modules:
+	tb_mux8to1
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\decoder_3to8_tb.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module decoder3to8_tb
+
+Top level modules:
+	decoder3to8_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\encoder_8to3.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module encoder8to3
+
+Top level modules:
+	encoder8to3
+
+} {} {}}
