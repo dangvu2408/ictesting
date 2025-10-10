@@ -6,7 +6,7 @@ module tb_mux8to1;
   reg [2:0] sel;
   wire y;
 
-  mux8to1 uut (
+  multiplexer_8to1 uut (
     .d(d),
     .sel(sel),
     .y(y)

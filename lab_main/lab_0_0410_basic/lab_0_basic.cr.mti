@@ -5,13 +5,6 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	encoder8to3_tb
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tb_mux8to1
-
-Top level modules:
-	tb_mux8to1
-
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module encoder8to3
@@ -61,12 +54,12 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	decoder3to8
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v}
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module mux8to1
+-- Compiling module majority_8bit
 
 Top level modules:
-	mux8to1
+	majority_8bit
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024

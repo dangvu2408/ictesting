@@ -1,4 +1,4 @@
-module mux8to1 (
+module multiplexer_8to1 (
   input  [7:0] d,    // input data 8 bits
   input  [2:0] sel,  // input select 3 bits
   output y           // output 1 bit
