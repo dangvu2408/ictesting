@@ -1,4 +1,4 @@
-module demux1to8 (
+module demux_1to8 (
   input       d,         // input data
   input [2:0] sel,       // input select
   output [7:0] y         // 8 bits output

@@ -1,0 +1,37 @@
+module testtraffic ();
+  reg clk, rst_n, sensor;
+  wire [2:0] light_h, light_n;
+  initial begin
+    $monitor ("sensor=%b,light_h=%b,light_n=%b", sensor, light_h, light_n);
+    clk = 0;
+    rst_n = 1;
+    #5  rst_n = 0;
+    #15 rst_n = 1;
+    #15 sensor = 0;
+    // after 20 clock cycles, there is cars in country road, country light should be green, highway should be yellow, then red
+    #200 sensor = 1;
+    // cars go aways after 5 clock cycles, coutry light should be yellow then red, highway should be green
+    #70 sensor = 0;
+    
+    // then after 10 clock cycles, there is cars in country road, country light should be green, highway should be yellow, then red
+    #100 sensor = 1;
+    // cars in country are to many, it goes out only after 20 cycles. 
+    // however, country should be yellow and then red after 10+2 cycles
+    // and highway should goes to green in 10 cycles
+    #200 sensor = 0;
+    
+  end
+  always begin
+    #5 clk = !clk;
+  end 
+  
+  main traffic_controller 
+  (
+    .clk(clk),
+    .rst_n(rst_n),
+    .car_sensor(sensor),
+    .highway_light(light_h),
+    .country_light(light_n)
+  );
+endmodule
+

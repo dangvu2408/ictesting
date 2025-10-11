@@ -1,0 +1,90 @@
+{
+time = 1322722523
+time = \mutex 
+mc_time = 0.020000
+}
+{
+time = 1322722838
+time = \mutex 
+mc_time = 0.010000
+}
+{
+time = 1322723045
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1322723239
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1322723349
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1322725106
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1322726496
+time = \country_live 
+mc_time = 0.020000
+}
+{
+time = 1322726611
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1322754560
+time = \country_live 
+mc_time = 0.000000
+}
+{
+time = 1323076246
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1323077284
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1324458691
+time = \country_live 
+mc_time = 0.010000
+}
+{
+time = 1324902846
+time = \mutex_green 
+mc_time = 0.010000
+}
+{
+time = 1324903056
+time = \countrygreen_live 
+mc_time = 0.020000
+}
+{
+time = 1357646662
+time = \countrygreen_live 
+mc_time = 0.010000
+}
+{
+time = 1421461375
+time = \countrygreen_live 
+mc_time = 0.015600
+}
+{
+time = 1421461442
+time = \countrygreen_live 
+mc_time = 0.000000
+}
+{
+time = 1432194115
+time = \countrygreen_live 
+mc_time = 0.000000
+}

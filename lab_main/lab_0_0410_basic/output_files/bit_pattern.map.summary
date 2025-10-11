@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Oct 11 11:17:21 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : bit_pattern
+Top-level Entity Name : bit_pattern
+Family : Cyclone IV E
+Total logic elements : 5
+    Total combinational functions : 4
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Oct 11 10:37:26 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : alu_32bit
+Top-level Entity Name : alu_32bit
+Family : Cyclone IV E
+Total logic elements : 665
+    Total combinational functions : 665
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 100
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 8
+Total PLLs : 0

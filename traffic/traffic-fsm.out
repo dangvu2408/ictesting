@@ -1,0 +1,1091 @@
+{
+/* description */ "(AG ($$$temp181 ->(AF ((~rst_n)|((country_light[0]=0)&((country_light[ "
+/* identifier  */ {\countrygreen_live }
+/* truth value */ 0
+/* loop begins */ 1
+/* time */ 1432194115
+{
+/* loop begins here */
+/* state 1 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 1,
+# 1 "$noline$"
+\country_controller .\CurrentState [0] = 1,
+# 1 "$noline$"
+\country_controller .\CurrentState [1] = 0,
+# 1 "$noline$"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+# 1 "$noline$"
+\highway_controller .\CurrentState [0] = 0,
+# 1 "$noline$"
+\highway_controller .\CurrentState [1] = 0,
+# 1 "$noline$"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+# 1 "$noline$"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 1,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+# 1 "$noline$"
+\timer .\counter [0] = 1,
+# 1 "$noline$"
+\timer .\counter [1] = 0,
+# 1 "$noline$"
+\timer .\counter [2] = 0,
+# 1 "$noline$"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 2 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 1,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 1,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 1,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 1,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 1
+}
+/* state 3 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 4 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 5 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 6 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 7 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 0,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 8 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 1,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 9 */{
+#162 "traffic-fsm.v"
+\Timeout  = 0,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 0,
+#203 "traffic-fsm.v"
+\start_h  = 0,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 1,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 0,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* state 10 */{
+#162 "traffic-fsm.v"
+\Timeout  = 1,
+#134 "traffic-fsm.v"
+\car  = 0,
+# 1 "$noline$"
+\car_sensor  = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [0] = 1,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [1] = 0,
+#307 "traffic-fsm.v"
+\country_controller .\CurrentState [2] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [0] = 1,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [1] = 0,
+#293 "traffic-fsm.v"
+\country_controller .\NextState [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\Timeout  = 1,
+#77 "traffic-fsm.v"
+\country_controller .\car  = 0,
+#293 "traffic-fsm.v"
+\country_controller .\enable_h  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\enable_n  = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [0] = 1,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [1] = 0,
+#309 "traffic-fsm.v"
+\country_controller .\light_n [2] = 0,
+#77 "traffic-fsm.v"
+\country_controller .\rst_n  = 1,
+#293 "traffic-fsm.v"
+\country_controller .\start_n  = 0,
+#77 "traffic-fsm.v"
+\country_controller .\timeout  = 0,
+#272 "traffic-fsm.v"
+\country_light [0] = 1,
+#272 "traffic-fsm.v"
+\country_light [1] = 0,
+#272 "traffic-fsm.v"
+\country_light [2] = 0,
+#269 "traffic-fsm.v"
+\enable_h  = 0,
+#202 "traffic-fsm.v"
+\enable_n  = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [0] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [1] = 0,
+#243 "traffic-fsm.v"
+\highway_controller .\CurrentState [2] = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [0] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [1] = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\NextState [2] = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\Timeout  = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\car  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\enable_h  = 0,
+#229 "traffic-fsm.v"
+\highway_controller .\enable_n  = 0,
+#62 "traffic-fsm.v"
+\highway_controller .\rst_n  = 1,
+#229 "traffic-fsm.v"
+\highway_controller .\start_h  = 1,
+#62 "traffic-fsm.v"
+\highway_controller .\timeout  = 0,
+# 1 "$noline$"
+\rst_n  = 1,
+#148 "traffic-fsm.v"
+\sensor_control .\car  = 0,
+#36 "traffic-fsm.v"
+\sensor_control .\rst_n  = 1,
+#36 "traffic-fsm.v"
+\sensor_control .\sensor  = 0,
+#79 "traffic-fsm.v"
+\start  = 1,
+#203 "traffic-fsm.v"
+\start_h  = 1,
+#271 "traffic-fsm.v"
+\start_n  = 0,
+#163 "traffic-fsm.v"
+\timeout  = 0,
+#180 "traffic-fsm.v"
+\timer .\Timeout  = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [0] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [1] = 1,
+#176 "traffic-fsm.v"
+\timer .\counter [2] = 0,
+#176 "traffic-fsm.v"
+\timer .\counter [3] = 1,
+#47 "traffic-fsm.v"
+\timer .\rst_n  = 1,
+#47 "traffic-fsm.v"
+\timer .\start  = 1,
+#182 "traffic-fsm.v"
+\timer .\timeout  = 0
+}
+/* loop back to state 1 */
+}
+}

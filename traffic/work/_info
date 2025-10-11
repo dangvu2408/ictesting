@@ -1,0 +1,181 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\sv
+T_opt
+VT_Q3[?JSNAo`<C]20ih?e2
+Z1 04 11 4 work testtraffic fast 0
+=1-0016eaeec1b6-555d8e2b-20d-1be8
+o-quiet -auto_acc_if_foreign -work work -O0
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dC:\sv
+T_opt1
+VT`nd9A0bf7Yh=n33]YoLf3
+04 4 4 work main fast 0
+=1-0016eaeec1b6-555d8180-52-6b8
+Z4 o-quiet -auto_acc_if_foreign -work work
+n@_opt1
+R2
+R3
+T_opt2
+Vee]OYJAgN[@`]jhOBDm?Z1
+R1
+=1-0016eaeec1b6-555d8e62-f8-c7c
+R4
+n@_opt2
+R2
+vcountry_fsm
+Z5 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+If<kDB:D]dV^Ag2oDFlPUU1
+VVzC>lDhB8jJAO[FfziXe?0
+Z6 !s105 traffic_v_unit
+S1
+Z7 dC:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic
+Z8 w1357202802
+Z9 8C:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic\traffic.v
+Z10 FC:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic\traffic.v
+L0 234
+Z11 OL;L;10.1c;51
+r1
+31
+Z12 !s108 1432194567.266000
+Z13 !s107 C:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic\traffic.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-sv|-covercells|-coverExcludeDefault|-nocoverfec|-cover|sbcefx1|C:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic\traffic.v|
+Z15 !s102 -covercells -nocoverfec -cover sbcefx1
+Z16 o-work work -sv -covercells -coverexcludedefault -nocoverfec -cover sbcefx1 -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 3EJh7T2:Q>B9@i6Fho2W91
+!i10b 1
+!s85 0
+vhighway_fsm
+R5
+IbRCi^=BFMeS:DFa4bd?8c2
+VKkd85X^b;9@G4NJbmHc7`0
+R6
+S1
+R7
+R8
+R9
+R10
+L0 176
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+!s100 AUWSNC`^]H6TM5[0PRmEU1
+!i10b 1
+!s85 0
+vmain
+DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+VScY3VBkml>g7SB3OPXESL2
+r1
+31
+I5>4Q]Oj3VNVGkO>AJ_8=Q2
+S1
+d/home/data/verif-class/traffic
+w1324903614
+8/home/data/verif-class/traffic/traffic-fsm.v
+F/home/data/verif-class/traffic/traffic-fsm.v
+L0 10
+OE;L;10.0b;49
+o-work work -sv -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s105 traffic2dfsm_v_unit
+!s108 1324903954.426927
+!s107 /home/data/verif-class/traffic/traffic-fsm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-nocovercells|/home/data/verif-class/traffic/traffic-fsm.v|
+!s102 -nocovercells
+!s100 lTO8[Jh4L]e8iI[CO<oWX2
+!s85 0
+vsensor_fsm
+R5
+IV3P7:`Q5RWUAQgSGcOo711
+V@0llACC85_4dS^<gAl3U@2
+R6
+S1
+R7
+R8
+R9
+R10
+L0 122
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+!s100 gMBkAD?9;b3SHE2?dMGik0
+!i10b 1
+!s85 0
+vtesttraffic
+R5
+I3E;nk9FoFgMbe9N8Z6`RH0
+Vb9Y_TD2M0BA@<ZXmD:BEg3
+R6
+S1
+R7
+R8
+R9
+R10
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+!i10b 1
+!s100 Pf_i<Safc:YAF[d?k9QM=3
+!s85 0
+vtimer_fsm
+R5
+IgG89UD9Ck1;GHU<3Y@]o?1
+V4@IUV=UmhNLHQOTjNPFDY2
+R6
+S1
+R7
+R8
+R9
+R10
+L0 145
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+!s100 K=6zbH[]8IV9GgZVJ6aAH0
+!i10b 1
+!s85 0
+vtraffic_controller
+R5
+ISL>fUW=7G;E3R8mzI0_YZ1
+V=cW9_jMaH`R=]khlG[oeF1
+R6
+S1
+R7
+R8
+R9
+R10
+L0 42
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+!s100 ::>eA[;OV@ZMa99W2ic6_1
+!i10b 1
+!s85 0

@@ -1,0 +1,15 @@
+Coverage Report Summary Data by file
+
+Total Coverage By File (code coverage only, filtered view): 37.4%
+
+File: traffic.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       58        40        18      68.9
+    Branches                    29        14        15      48.2
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       6         2         4      33.3
+    Transitions                 14         2        12      14.2
+    Toggle Bins                194        17       177       8.7
+

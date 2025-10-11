@@ -1,0 +1,25 @@
+|highway_fsm
+clk => CurrentState~1.DATAIN
+rst_n => CurrentState~3.DATAIN
+car => NextState.OUTPUTSELECT
+car => NextState.OUTPUTSELECT
+car => NextState.OUTPUTSELECT
+Timeout => NextState.OUTPUTSELECT
+Timeout => NextState.OUTPUTSELECT
+Timeout => NextState.OUTPUTSELECT
+Timeout => Selector3.IN1
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => enable_n.DATAB
+enable_h => NextState.OUTPUTSELECT
+enable_h => NextState.OUTPUTSELECT
+enable_h => NextState.OUTPUTSELECT
+enable_h => Selector3.IN2
+enable_n <= enable_n.DB_MAX_OUTPUT_PORT_TYPE
+start_h <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+light_h[0] <= light_h[0].DB_MAX_OUTPUT_PORT_TYPE
+light_h[1] <= light_h[1].DB_MAX_OUTPUT_PORT_TYPE
+light_h[2] <= light_h[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

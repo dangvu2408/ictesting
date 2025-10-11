@@ -1,0 +1,312 @@
+ 
+// Module to control traffic lights in two directions
+
+`define green_timeout   10
+`define yellow_timeout  2
+// define a variable to verify using ONESPIN
+// comment it out to verify using SMV
+`define ONESPIN 
+
+module main (clk, // clock
+  rst_n, // active low reset
+  car_sensor, // =1 if there are cars in country road
+  highway_light, // =100, 010, 001 for green, yellow, red
+  country_light // =100, 010, 001 for green, yellow, red
+  );
+  input clk;
+  input rst_n;
+  input car_sensor;
+  output [2:0] highway_light, country_light;
+  
+  wire car;
+  wire Timeout;
+  wire timeout;
+  wire start, start_h, start_n;
+  wire enable_h, enable_n;
+	
+  
+  sensor_fsm sensor_control
+  (
+    // input
+    .clk(clk),
+    .rst_n(rst_n),
+    .sensor(car_sensor),
+    // output
+    .car(car)
+  );
+  
+  timer_fsm timer
+   (
+     // input
+     .clk(clk),
+     .rst_n(rst_n),
+     .start(start),
+     // output
+     .Timeout(Timeout),
+     .timeout(timeout)
+   );
+  
+  highway_fsm highway_controller
+  (
+    // input
+    .clk(clk),
+    .rst_n(rst_n),
+    .enable_h(enable_h),
+    .car(car),
+    .Timeout(Timeout),
+    .timeout(timeout),
+    // output
+    .enable_n(enable_n),
+   .light_h(highway_light),
+    .start_h(start_h)
+  );
+  
+  country_fsm country_controller
+  (
+    // input
+    .clk(clk),
+    .rst_n(rst_n),
+    .enable_n(enable_n),
+    .car(car),
+    .Timeout(Timeout),
+    .timeout(timeout),
+    // output
+    .enable_h(enable_h),
+    .light_n(country_light),
+    .start_n(start_n)
+  );
+  
+  assign start = start_h | start_n;
+
+	 /* properties for verification using SMV */
+	 
+`ifdef __SMV__	
+ 	always begin
+		 // highway and country road never get green light at the same time 
+ 		 assert mutex_green: !((highway_light == 3'b100) & (country_light == 3'b100));
+		 // whenever there are cars in country road, it should get green light
+ 		 if (car_sensor) assert countrygreen_live: eventually (!rst_n | country_light == 3'b100);		 
+ 	end
+`endif
+
+	 /*	 properties in SVA for verification using Onespin 360MV */
+`ifdef ONESPIN
+	 // highway and country road never get green light at the same time 
+	 mutex_green:
+		 assert property (
+			 @(posedge clk) disable iff (!rst_n)
+			 			!((highway_light == 3'b100) & (country_light == 3'b100))
+											);
+	 
+	 // highway and country road never get yellow light at the same time 
+	 mutex_yellow:
+		 assert property (
+			 @(posedge clk) disable iff (!rst_n)
+			 			!((highway_light == 3'b010) & (country_light == 3'b010))
+											);
+
+	 // whenever there are cars in country road, it should get green light
+	 countrygreen_live:
+		 assert property (
+		   @(posedge clk) disable iff (!rst_n)
+				(car_sensor)   
+				|=> ##[0:15](!car_sensor | (country_light == 3'b100))
+											);
+
+	 // highway should always gets green light in 12 cycles
+	 highwaygreen_live:
+		 assert property (
+		   @(posedge clk) disable iff (!rst_n)
+				(##[0:15](highway_light == 3'b100))
+											);
+			
+`endif
+
+endmodule
+
+module sensor_fsm (
+  clk,
+  rst_n,
+  sensor,
+  car
+  );
+  input clk;
+  input rst_n;
+  input sensor;
+  output car;
+  
+  reg car;
+
+	initial begin
+		 car = 0;
+	end
+  
+  always @(posedge clk or negedge rst_n)
+  begin
+    if (!rst_n)
+      car <= 0;
+    else
+      if (sensor) car <= 1;
+      else car <= 0;
+  end
+endmodule
+
+module timer_fsm(
+  clk,
+  rst_n,
+  start,
+  Timeout,
+  timeout);
+  
+  input clk;
+  input rst_n;
+  input start;
+  output Timeout;
+  output timeout;
+   
+  reg [3:0] counter;
+  initial begin
+		 counter = 1;
+	end
+		
+  always @(posedge clk or negedge rst_n)
+  begin
+    if (!rst_n)
+      counter <= 1;
+    else begin
+      if (start) counter <= 1;
+      else counter <= counter+1;
+    end 
+  end
+  assign Timeout = (counter == `green_timeout);
+  assign timeout = (counter == `yellow_timeout);
+endmodule
+
+module highway_fsm (
+  clk,
+  rst_n,
+  car,
+  Timeout,
+  timeout,
+  enable_h,
+  enable_n,
+  start_h,
+  light_h);
+  
+  input clk;
+  input rst_n;
+  input car;
+  input Timeout;
+  input timeout;
+  input enable_h;
+  output enable_n;
+  output start_h;
+  output [2:0] light_h;
+	
+	parameter [2:0] /* synopsys enum state_info */
+									green_h = 3'b100,
+									yellow_h = 3'b010,
+									red_h = 3'b001;
+	
+  reg enable_n, start_h;
+  reg [2:0] /*synopsys enum state_info */ NextState, CurrentState;
+  
+	always@ (NextState or CurrentState or enable_h or Timeout or timeout or car) 
+  begin
+    NextState = CurrentState ;
+    start_h = 0; enable_n = 0;
+    case (CurrentState)
+		 green_h: if (Timeout == 1)  begin
+                if (car) NextState = yellow_h; 
+                start_h = 1;				      
+             end 
+     yellow_h: if (timeout==1) begin
+                NextState = red_h;
+                enable_n = 1;
+		          end
+		 red_h: if (enable_h) begin
+              NextState = green_h; 
+              start_h = 1;
+	         end 
+    endcase
+  end 
+
+	initial begin
+		 CurrentState = green_h;
+	end
+	 
+	always @(posedge clk or negedge rst_n)
+  begin
+    if (!rst_n)
+      CurrentState <= green_h;
+    else 
+      CurrentState <= NextState;
+  end
+  assign light_h = CurrentState;
+endmodule
+
+module country_fsm (
+  clk,
+  rst_n,
+  car,
+  Timeout,
+  timeout,
+  enable_h,
+  enable_n,
+  start_n,
+  light_n);
+
+	parameter [2:0] /* synopsys enum state_info */
+									green_n = 3'b100,
+									yellow_n = 3'b010,
+									red_n = 3'b001;
+  
+  input clk;
+  input rst_n;
+  input car;
+  input Timeout;
+  input timeout;
+  output enable_h;
+  input enable_n;
+  output start_n;
+  output [2:0] light_n;
+  reg enable_h, start_n;
+	
+
+  reg [2:0] /*synopsys enum state_info */ NextState, CurrentState;
+  
+  always@ (NextState or CurrentState or enable_n or Timeout or timeout or car) 
+  begin
+    NextState = CurrentState ;
+    start_n = 0; enable_h = 0;
+    case (CurrentState)
+    green_n: if (car==0 || Timeout == 1)  begin
+                NextState = yellow_n; 
+                start_n = 1;
+             end 
+    yellow_n: if (timeout==1) begin
+                NextState = red_n;
+                enable_h = 1;
+		          end
+    red_n: if (enable_n==1) begin
+              NextState = green_n; 
+              start_n = 1;
+	         end 
+    endcase
+  end 
+
+	initial begin
+		 CurrentState = red_n;
+	end
+
+  always @(posedge clk or negedge rst_n)
+  begin
+    if (!rst_n)
+      CurrentState <= red_n;
+    else 
+      CurrentState <= NextState;
+  end
+  assign light_n = CurrentState;
+
+	
+endmodule

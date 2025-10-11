@@ -1,0 +1,18 @@
+|bit_pattern
+clk => y~reg0.CLK
+clk => state~1.DATAIN
+rst => next_state.S0.OUTPUTSELECT
+rst => next_state.S1.OUTPUTSELECT
+rst => next_state.S2.OUTPUTSELECT
+rst => next_state.S3.OUTPUTSELECT
+rst => next_state.S4.OUTPUTSELECT
+rst => y~reg0.ACLR
+rst => state~3.DATAIN
+x => next_state.DATAB
+x => next_state.DATAB
+x => Selector1.IN2
+x => Selector0.IN1
+x => Selector2.IN1
+y <= y~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

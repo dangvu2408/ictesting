@@ -1,0 +1,62 @@
+module highway_fsm (
+  clk,
+  rst_n,
+  car,
+  Timeout,
+  timeout,
+  enable_h,
+  enable_n,
+  start_h,
+  light_h);
+  
+  input clk;
+  input rst_n;
+  input car;
+  input Timeout;
+  input timeout;
+  input enable_h;
+  output enable_n;
+  output start_h;
+  output [2:0] light_h;
+	
+	parameter [2:0] /* synopsys enum state_info */
+									green_h = 3'b100,
+									yellow_h = 3'b010,
+									red_h = 3'b001;
+	
+  reg enable_n, start_h;
+  reg [2:0] /*synopsys enum state_info */ NextState, CurrentState;
+  
+	always@ (NextState or CurrentState or enable_h or Timeout or timeout or car) 
+  begin
+    NextState = CurrentState ;
+    start_h = 0; enable_n = 0;
+    case (CurrentState)
+		 green_h: if (Timeout == 1)  begin
+                if (car) NextState = yellow_h; 
+                start_h = 1;				      
+             end 
+     yellow_h: if (timeout==1) begin
+                NextState = red_h;
+                enable_n = 1;
+		          end
+		 red_h: if (enable_h) begin
+              NextState = green_h; 
+              start_h = 1;
+	         end 
+    endcase
+  end 
+
+	initial begin
+		 CurrentState = green_h;
+	end
+	 
+	always @(posedge clk or negedge rst_n)
+  begin
+    if (!rst_n)
+      CurrentState <= green_h;
+    else 
+      CurrentState <= NextState;
+  end
+  assign light_h = CurrentState;
+endmodule

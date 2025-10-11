@@ -1,0 +1,172 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\sv
+T_opt
+V786eCaENFfJS:T]gXlI9z2
+04 11 4 work testtraffic fast 0
+=1-0800277ca07b-4ed25dc5-1c0-6fc
+Z1 o-quiet -auto_acc_if_foreign -work work
+OE;O;6.4c;39
+Z2 dC:\sv
+T_opt1
+VT`nd9A0bf7Yh=n33]YoLf3
+04 4 4 work main fast 0
+=1-0016eaeec1b6-555d8180-52-6b8
+R1
+n@_opt1
+OL;O;10.1c;51
+vcountry_fsm
+Z3 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+IQz_0^AmK?0I66ZNFWKTLR3
+VVzC>lDhB8jJAO[FfziXe?0
+Z4 !s105 traffic_v_unit
+S1
+Z5 dC:\Data\OneDrive\Teaching\Hardware Design Verification\verif-class\traffic
+Z6 w1357202802
+Z7 8C:/Data/OneDrive/Teaching/Hardware Design Verification/verif-class/traffic/traffic.v
+Z8 FC:/Data/OneDrive/Teaching/Hardware Design Verification/verif-class/traffic/traffic.v
+L0 234
+Z9 OL;L;10.1c;51
+r1
+31
+Z10 !s108 1432191255.550000
+Z11 !s107 C:/Data/OneDrive/Teaching/Hardware Design Verification/verif-class/traffic/traffic.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-covercells|-coverExcludeDefault|-nocoverfec|-cover|sbcefx3|C:/Data/OneDrive/Teaching/Hardware Design Verification/verif-class/traffic/traffic.v|
+Z13 !s102 -covercells -nocoverfec -cover sbcefx3
+Z14 o-work work -sv -covercells -coverexcludedefault -nocoverfec -cover sbcefx3 -L mtiAvm -L mtiOvm -L mtiUPF
+!i10b 1
+!s100 eA_f6:QD^>0f`?_KXR]M21
+!s85 0
+vhighway_fsm
+R3
+I>N4XKPOH9K>LNYk`VKRZd3
+VKkd85X^b;9@G4NJbmHc7`0
+R4
+S1
+R5
+R6
+R7
+R8
+L0 176
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 kSFSkJfFn`AGNQXRV`G@B3
+!s85 0
+vmain
+DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+VScY3VBkml>g7SB3OPXESL2
+r1
+31
+I5>4Q]Oj3VNVGkO>AJ_8=Q2
+!s105 traffic2dfsm_v_unit
+S1
+d/home/data/verif-class/traffic
+w1324903614
+8/home/data/verif-class/traffic/traffic-fsm.v
+F/home/data/verif-class/traffic/traffic-fsm.v
+L0 10
+OE;L;10.0b;49
+!s108 1324903954.426927
+!s107 /home/data/verif-class/traffic/traffic-fsm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-nocovercells|/home/data/verif-class/traffic/traffic-fsm.v|
+!s102 -nocovercells
+o-work work -sv -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s100 lTO8[Jh4L]e8iI[CO<oWX2
+!s85 0
+vsensor_fsm
+R3
+IhkZPl=EVhi552J_:aLO6W0
+V@0llACC85_4dS^<gAl3U@2
+R4
+S1
+R5
+R6
+R7
+R8
+L0 122
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 =d[FXhI5Me?bJVSA@9z893
+!s85 0
+vtesttraffic
+R3
+I^b`iSVCY__44M4[DdfjKM3
+Vb9Y_TD2M0BA@<ZXmD:BEg3
+R4
+S1
+R5
+R6
+R7
+R8
+L0 1
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 CzSHJ]=hgJ[c2]nkcnl@k2
+!s85 0
+vtimer_fsm
+R3
+Ik8o090VLnb91H3Gg]jM8K2
+V4@IUV=UmhNLHQOTjNPFDY2
+R4
+S1
+R5
+R6
+R7
+R8
+L0 145
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 ab5hQkMmhF07IW72i^OU:0
+!s85 0
+vtraffic_controller
+R3
+I8eJo?azQbLLVmac9;IN<V3
+V=cW9_jMaH`R=]khlG[oeF1
+R4
+S1
+R5
+R6
+R7
+R8
+L0 42
+R9
+r1
+31
+R10
+R11
+R12
+R13
+R14
+!i10b 1
+!s100 XzFU2VNQ7>124DVMmb@:^3
+!s85 0

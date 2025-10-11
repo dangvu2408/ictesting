@@ -18,7 +18,7 @@ module majority_8bit_tb;
 
     for (i = 0; i < 256; i = i + 1) begin
       a = i;
-
+      #10
       count_ones = a[0] + a[1] + a[2] + a[3] + a[4] + a[5] + a[6] + a[7];
       $display("%4t\t%b\t %b\t (%b)", $time, a, y, (count_ones >= 4));
 

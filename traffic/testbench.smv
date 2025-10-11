@@ -1,0 +1,9 @@
+module \testtraffic ( # 1 "testbench.v"
+){ # 2 "testbench.v"
+ # 2 "testbench.v"
+\clk  : boolean resolve; # 2 "testbench.v"
+\rst_n  : boolean resolve; # 2 "testbench.v"
+\sensor  : boolean resolve; # 3 "testbench.v"
+ # 3 "testbench.v"
+\light_h  : array 2..0 of boolean resolve; # 3 "testbench.v"
+\light_n  : array 2..0 of boolean resolve;
