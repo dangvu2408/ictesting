@@ -1,0 +1,28 @@
+S 0 2
+P 8 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+J 1 30709 6.000195 6 114688 0 0 0 0
+O C:/questasim64_2024.1/win64/voptk2.exe
+O -refresh
+O -jsubproc
+O -nolock
+O -stats=none
+O -nologo
+O -allow_unnamed
+O -suppress
+O 1979
+O -suppress
+O 167
+O -o
+O _opt1
+O -work
+O work
+O -quiet
+O -opt=nocgRM
+O -jmem_size
+O 344352
+O -noenableprofile
+O -enableprofile1
+DPI_GLOBALS 0 0
+VOPT_STATS 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+LOCKED_FILE D:/backup_later/ET4356/QuestaSim/traffic/work _opt1__lock 1-b48c9d17587f-68e9f544-162-1108
+VHDL_GLOBALS 0

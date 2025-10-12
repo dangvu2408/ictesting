@@ -1,0 +1,38 @@
+D:/backup_later/ET4356/QuestaSim/traffic/testbench.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\traffic\testbench.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module testtraffic
+
+Top level modules:
+	testtraffic
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/traffic/traffic-fsm.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/traffic/traffic-fsm.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module main
+-- Compiling module sensor_fsm
+-- Compiling module timer_fsm
+-- Compiling module highway_fsm
+-- Compiling module country_fsm
+
+Top level modules:
+	main
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/traffic/highway_fsm.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/traffic/highway_fsm.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module highway_fsm
+
+Top level modules:
+	highway_fsm
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/traffic/traffic.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/traffic/traffic.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module testtraffic
+-- Compiling module traffic_controller
+-- Compiling module sensor_fsm
+-- Compiling module timer_fsm
+-- Compiling module highway_fsm
+-- Compiling module country_fsm
+
+Top level modules:
+	testtraffic
+
+} {} {}}

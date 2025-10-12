@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat Oct 11 13:42:46 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : traffic_controller
+Top-level Entity Name : traffic_controller
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 22 / 114,480 ( < 1 % )
+    Total combinational functions : 21 / 114,480 ( < 1 % )
+    Dedicated logic registers : 11 / 114,480 ( < 1 % )
+Total registers : 11
+Total pins : 9 / 529 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 0 / 3,981,312 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

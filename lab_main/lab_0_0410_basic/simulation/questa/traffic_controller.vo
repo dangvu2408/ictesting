@@ -1,0 +1,887 @@
+// Copyright (C) 2025  Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Altera and sold by Altera or its authorized distributors.  Please
+// refer to the Altera Software License Subscription Agreements 
+// on the Quartus Prime software download page.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition"
+
+// DATE "10/11/2025 13:42:54"
+
+// 
+// Device: Altera EP4CE115F29C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for QuestaSim (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module traffic_controller (
+	clk,
+	rst_n,
+	car_sensor,
+	highway_light,
+	country_light);
+input 	clk;
+input 	rst_n;
+input 	car_sensor;
+output 	[2:0] highway_light;
+output 	[2:0] country_light;
+
+// Design Ports Information
+// highway_light[0]	=>  Location: PIN_D9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// highway_light[1]	=>  Location: PIN_B6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// highway_light[2]	=>  Location: PIN_G11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// country_light[0]	=>  Location: PIN_D11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// country_light[1]	=>  Location: PIN_C11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// country_light[2]	=>  Location: PIN_H12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// clk	=>  Location: PIN_J1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// rst_n	=>  Location: PIN_Y2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// car_sensor	=>  Location: PIN_C9,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \highway_light[0]~output_o ;
+wire \highway_light[1]~output_o ;
+wire \highway_light[2]~output_o ;
+wire \country_light[0]~output_o ;
+wire \country_light[1]~output_o ;
+wire \country_light[2]~output_o ;
+wire \clk~input_o ;
+wire \clk~inputclkctrl_outclk ;
+wire \car_sensor~input_o ;
+wire \sensor_control|car~feeder_combout ;
+wire \rst_n~input_o ;
+wire \rst_n~inputclkctrl_outclk ;
+wire \sensor_control|car~q ;
+wire \highway_controller|Selector1~2_combout ;
+wire \highway_controller|CurrentState.yellow_h~q ;
+wire \highway_controller|enable_n~0_combout ;
+wire \highway_controller|CurrentState.green_h~0_combout ;
+wire \highway_controller|CurrentState.green_h~q ;
+wire \timer|counter~3_combout ;
+wire \timer|Add0~0_combout ;
+wire \timer|counter~2_combout ;
+wire \highway_controller|Selector2~0_combout ;
+wire \highway_controller|Selector2~1_combout ;
+wire \start~0_combout ;
+wire \timer|counter~1_combout ;
+wire \timer|counter~0_combout ;
+wire \timer|Equal1~0_combout ;
+wire \highway_controller|Selector2~2_combout ;
+wire \country_controller|Selector0~1_combout ;
+wire \country_controller|CurrentState.red_n~q ;
+wire \country_controller|Selector3~0_combout ;
+wire \country_controller|CurrentState.green_n~0_combout ;
+wire \country_controller|CurrentState.green_n~q ;
+wire \highway_controller|Selector2~3_combout ;
+wire \country_controller|Selector0~0_combout ;
+wire \country_controller|Selector1~2_combout ;
+wire \country_controller|CurrentState.yellow_n~q ;
+wire \highway_controller|Selector3~0_combout ;
+wire \highway_controller|Selector0~0_combout ;
+wire \highway_controller|CurrentState.red_h~q ;
+wire [3:0] \timer|counter ;
+
+
+hard_block auto_generated_inst(
+	.devpor(devpor),
+	.devclrn(devclrn),
+	.devoe(devoe));
+
+// Location: IOOBUF_X23_Y73_N23
+cycloneive_io_obuf \highway_light[0]~output (
+	.i(\highway_controller|CurrentState.red_h~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\highway_light[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \highway_light[0]~output .bus_hold = "false";
+defparam \highway_light[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X27_Y73_N23
+cycloneive_io_obuf \highway_light[1]~output (
+	.i(\highway_controller|CurrentState.yellow_h~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\highway_light[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \highway_light[1]~output .bus_hold = "false";
+defparam \highway_light[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X25_Y73_N16
+cycloneive_io_obuf \highway_light[2]~output (
+	.i(!\highway_controller|CurrentState.green_h~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\highway_light[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \highway_light[2]~output .bus_hold = "false";
+defparam \highway_light[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X23_Y73_N9
+cycloneive_io_obuf \country_light[0]~output (
+	.i(!\country_controller|CurrentState.red_n~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\country_light[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \country_light[0]~output .bus_hold = "false";
+defparam \country_light[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X23_Y73_N2
+cycloneive_io_obuf \country_light[1]~output (
+	.i(\country_controller|CurrentState.yellow_n~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\country_light[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \country_light[1]~output .bus_hold = "false";
+defparam \country_light[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X25_Y73_N23
+cycloneive_io_obuf \country_light[2]~output (
+	.i(\country_controller|CurrentState.green_n~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\country_light[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \country_light[2]~output .bus_hold = "false";
+defparam \country_light[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y36_N8
+cycloneive_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G2
+cycloneive_clkctrl \clk~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\clk~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\clk~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \clk~inputclkctrl .clock_type = "global clock";
+defparam \clk~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: IOIBUF_X23_Y73_N15
+cycloneive_io_ibuf \car_sensor~input (
+	.i(car_sensor),
+	.ibar(gnd),
+	.o(\car_sensor~input_o ));
+// synopsys translate_off
+defparam \car_sensor~input .bus_hold = "false";
+defparam \car_sensor~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N30
+cycloneive_lcell_comb \sensor_control|car~feeder (
+// Equation(s):
+// \sensor_control|car~feeder_combout  = \car_sensor~input_o 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\car_sensor~input_o ),
+	.cin(gnd),
+	.combout(\sensor_control|car~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \sensor_control|car~feeder .lut_mask = 16'hFF00;
+defparam \sensor_control|car~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y36_N15
+cycloneive_io_ibuf \rst_n~input (
+	.i(rst_n),
+	.ibar(gnd),
+	.o(\rst_n~input_o ));
+// synopsys translate_off
+defparam \rst_n~input .bus_hold = "false";
+defparam \rst_n~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: CLKCTRL_G4
+cycloneive_clkctrl \rst_n~inputclkctrl (
+	.ena(vcc),
+	.inclk({vcc,vcc,vcc,\rst_n~input_o }),
+	.clkselect(2'b00),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.outclk(\rst_n~inputclkctrl_outclk ));
+// synopsys translate_off
+defparam \rst_n~inputclkctrl .clock_type = "global clock";
+defparam \rst_n~inputclkctrl .ena_register_mode = "none";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N31
+dffeas \sensor_control|car (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\sensor_control|car~feeder_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\sensor_control|car~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \sensor_control|car .is_wysiwyg = "true";
+defparam \sensor_control|car .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N14
+cycloneive_lcell_comb \highway_controller|Selector1~2 (
+// Equation(s):
+// \highway_controller|Selector1~2_combout  = (\highway_controller|Selector3~0_combout  & (\highway_controller|CurrentState.yellow_h~q  & (\highway_controller|Selector2~1_combout  $ (\timer|Equal1~0_combout )))) # (!\highway_controller|Selector3~0_combout  & 
+// ((\highway_controller|Selector2~1_combout ) # ((\highway_controller|CurrentState.yellow_h~q  & !\timer|Equal1~0_combout ))))
+
+	.dataa(\highway_controller|Selector3~0_combout ),
+	.datab(\highway_controller|Selector2~1_combout ),
+	.datac(\highway_controller|CurrentState.yellow_h~q ),
+	.datad(\timer|Equal1~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|Selector1~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector1~2 .lut_mask = 16'h64D4;
+defparam \highway_controller|Selector1~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N15
+dffeas \highway_controller|CurrentState.yellow_h (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\highway_controller|Selector1~2_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\highway_controller|CurrentState.yellow_h~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \highway_controller|CurrentState.yellow_h .is_wysiwyg = "true";
+defparam \highway_controller|CurrentState.yellow_h .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N12
+cycloneive_lcell_comb \highway_controller|enable_n~0 (
+// Equation(s):
+// \highway_controller|enable_n~0_combout  = (\highway_controller|CurrentState.yellow_h~q  & \timer|Equal1~0_combout )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\highway_controller|CurrentState.yellow_h~q ),
+	.datad(\timer|Equal1~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|enable_n~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|enable_n~0 .lut_mask = 16'hF000;
+defparam \highway_controller|enable_n~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N28
+cycloneive_lcell_comb \highway_controller|CurrentState.green_h~0 (
+// Equation(s):
+// \highway_controller|CurrentState.green_h~0_combout  = (\highway_controller|CurrentState.green_h~q  & ((\highway_controller|enable_n~0_combout  $ (\highway_controller|Selector2~1_combout )) # (!\highway_controller|Selector3~0_combout ))) # 
+// (!\highway_controller|CurrentState.green_h~q  & (!\highway_controller|Selector3~0_combout  & (\highway_controller|enable_n~0_combout  $ (\highway_controller|Selector2~1_combout ))))
+
+	.dataa(\highway_controller|enable_n~0_combout ),
+	.datab(\highway_controller|Selector2~1_combout ),
+	.datac(\highway_controller|CurrentState.green_h~q ),
+	.datad(\highway_controller|Selector3~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|CurrentState.green_h~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|CurrentState.green_h~0 .lut_mask = 16'h60F6;
+defparam \highway_controller|CurrentState.green_h~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N29
+dffeas \highway_controller|CurrentState.green_h (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\highway_controller|CurrentState.green_h~0_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\highway_controller|CurrentState.green_h~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \highway_controller|CurrentState.green_h .is_wysiwyg = "true";
+defparam \highway_controller|CurrentState.green_h .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N2
+cycloneive_lcell_comb \timer|counter~3 (
+// Equation(s):
+// \timer|counter~3_combout  = (!\start~0_combout  & (\timer|counter [2] $ (((!\timer|counter [0] & \timer|counter [1])))))
+
+	.dataa(\timer|counter [0]),
+	.datab(\timer|counter [1]),
+	.datac(\timer|counter [2]),
+	.datad(\start~0_combout ),
+	.cin(gnd),
+	.combout(\timer|counter~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|counter~3 .lut_mask = 16'h00B4;
+defparam \timer|counter~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X23_Y69_N3
+dffeas \timer|counter[2] (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\timer|counter~3_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\timer|counter [2]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \timer|counter[2] .is_wysiwyg = "true";
+defparam \timer|counter[2] .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N30
+cycloneive_lcell_comb \timer|Add0~0 (
+// Equation(s):
+// \timer|Add0~0_combout  = \timer|counter [3] $ (((!\timer|counter [0] & (\timer|counter [2] & \timer|counter [1]))))
+
+	.dataa(\timer|counter [0]),
+	.datab(\timer|counter [3]),
+	.datac(\timer|counter [2]),
+	.datad(\timer|counter [1]),
+	.cin(gnd),
+	.combout(\timer|Add0~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|Add0~0 .lut_mask = 16'h9CCC;
+defparam \timer|Add0~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N4
+cycloneive_lcell_comb \timer|counter~2 (
+// Equation(s):
+// \timer|counter~2_combout  = (\timer|Add0~0_combout  & !\start~0_combout )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\timer|Add0~0_combout ),
+	.datad(\start~0_combout ),
+	.cin(gnd),
+	.combout(\timer|counter~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|counter~2 .lut_mask = 16'h00F0;
+defparam \timer|counter~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X23_Y69_N5
+dffeas \timer|counter[3] (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\timer|counter~2_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\timer|counter [3]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \timer|counter[3] .is_wysiwyg = "true";
+defparam \timer|counter[3] .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N14
+cycloneive_lcell_comb \highway_controller|Selector2~0 (
+// Equation(s):
+// \highway_controller|Selector2~0_combout  = (\timer|counter [0] & (\timer|counter [3] & \timer|counter [1]))
+
+	.dataa(gnd),
+	.datab(\timer|counter [0]),
+	.datac(\timer|counter [3]),
+	.datad(\timer|counter [1]),
+	.cin(gnd),
+	.combout(\highway_controller|Selector2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector2~0 .lut_mask = 16'hC000;
+defparam \highway_controller|Selector2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N8
+cycloneive_lcell_comb \highway_controller|Selector2~1 (
+// Equation(s):
+// \highway_controller|Selector2~1_combout  = (\sensor_control|car~q  & (!\highway_controller|CurrentState.green_h~q  & (!\timer|counter [2] & \highway_controller|Selector2~0_combout )))
+
+	.dataa(\sensor_control|car~q ),
+	.datab(\highway_controller|CurrentState.green_h~q ),
+	.datac(\timer|counter [2]),
+	.datad(\highway_controller|Selector2~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|Selector2~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector2~1 .lut_mask = 16'h0200;
+defparam \highway_controller|Selector2~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N22
+cycloneive_lcell_comb \start~0 (
+// Equation(s):
+// \start~0_combout  = (\country_controller|Selector0~0_combout ) # ((\highway_controller|Selector2~1_combout ) # ((\highway_controller|Selector3~0_combout ) # (\country_controller|Selector3~0_combout )))
+
+	.dataa(\country_controller|Selector0~0_combout ),
+	.datab(\highway_controller|Selector2~1_combout ),
+	.datac(\highway_controller|Selector3~0_combout ),
+	.datad(\country_controller|Selector3~0_combout ),
+	.cin(gnd),
+	.combout(\start~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \start~0 .lut_mask = 16'hFFFE;
+defparam \start~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N18
+cycloneive_lcell_comb \timer|counter~1 (
+// Equation(s):
+// \timer|counter~1_combout  = (!\timer|counter [0] & !\start~0_combout )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\timer|counter [0]),
+	.datad(\start~0_combout ),
+	.cin(gnd),
+	.combout(\timer|counter~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|counter~1 .lut_mask = 16'h000F;
+defparam \timer|counter~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X23_Y69_N19
+dffeas \timer|counter[0] (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\timer|counter~1_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\timer|counter [0]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \timer|counter[0] .is_wysiwyg = "true";
+defparam \timer|counter[0] .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N12
+cycloneive_lcell_comb \timer|counter~0 (
+// Equation(s):
+// \timer|counter~0_combout  = (!\start~0_combout  & (\timer|counter [0] $ (!\timer|counter [1])))
+
+	.dataa(\timer|counter [0]),
+	.datab(gnd),
+	.datac(\timer|counter [1]),
+	.datad(\start~0_combout ),
+	.cin(gnd),
+	.combout(\timer|counter~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|counter~0 .lut_mask = 16'h00A5;
+defparam \timer|counter~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X23_Y69_N13
+dffeas \timer|counter[1] (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\timer|counter~0_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\timer|counter [1]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \timer|counter[1] .is_wysiwyg = "true";
+defparam \timer|counter[1] .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N28
+cycloneive_lcell_comb \timer|Equal1~0 (
+// Equation(s):
+// \timer|Equal1~0_combout  = (\timer|counter [1] & (!\timer|counter [2] & (!\timer|counter [3] & \timer|counter [0])))
+
+	.dataa(\timer|counter [1]),
+	.datab(\timer|counter [2]),
+	.datac(\timer|counter [3]),
+	.datad(\timer|counter [0]),
+	.cin(gnd),
+	.combout(\timer|Equal1~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \timer|Equal1~0 .lut_mask = 16'h0200;
+defparam \timer|Equal1~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N16
+cycloneive_lcell_comb \highway_controller|Selector2~2 (
+// Equation(s):
+// \highway_controller|Selector2~2_combout  = (\country_controller|CurrentState.yellow_n~q  & \timer|Equal1~0_combout )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\country_controller|CurrentState.yellow_n~q ),
+	.datad(\timer|Equal1~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|Selector2~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector2~2 .lut_mask = 16'hF000;
+defparam \highway_controller|Selector2~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N10
+cycloneive_lcell_comb \country_controller|Selector0~1 (
+// Equation(s):
+// \country_controller|Selector0~1_combout  = (\country_controller|Selector0~0_combout  & ((\country_controller|CurrentState.red_n~q ) # (\country_controller|Selector3~0_combout  $ (!\highway_controller|Selector2~2_combout )))) # 
+// (!\country_controller|Selector0~0_combout  & ((\country_controller|Selector3~0_combout  & ((\country_controller|CurrentState.red_n~q ) # (!\highway_controller|Selector2~2_combout ))) # (!\country_controller|Selector3~0_combout  & 
+// (\country_controller|CurrentState.red_n~q  & !\highway_controller|Selector2~2_combout ))))
+
+	.dataa(\country_controller|Selector0~0_combout ),
+	.datab(\country_controller|Selector3~0_combout ),
+	.datac(\country_controller|CurrentState.red_n~q ),
+	.datad(\highway_controller|Selector2~2_combout ),
+	.cin(gnd),
+	.combout(\country_controller|Selector0~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \country_controller|Selector0~1 .lut_mask = 16'hE8F6;
+defparam \country_controller|Selector0~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N11
+dffeas \country_controller|CurrentState.red_n (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\country_controller|Selector0~1_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\country_controller|CurrentState.red_n~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \country_controller|CurrentState.red_n .is_wysiwyg = "true";
+defparam \country_controller|CurrentState.red_n .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N20
+cycloneive_lcell_comb \country_controller|Selector3~0 (
+// Equation(s):
+// \country_controller|Selector3~0_combout  = (!\country_controller|CurrentState.red_n~q  & (\highway_controller|CurrentState.yellow_h~q  & \timer|Equal1~0_combout ))
+
+	.dataa(\country_controller|CurrentState.red_n~q ),
+	.datab(gnd),
+	.datac(\highway_controller|CurrentState.yellow_h~q ),
+	.datad(\timer|Equal1~0_combout ),
+	.cin(gnd),
+	.combout(\country_controller|Selector3~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \country_controller|Selector3~0 .lut_mask = 16'h5000;
+defparam \country_controller|Selector3~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N18
+cycloneive_lcell_comb \country_controller|CurrentState.green_n~0 (
+// Equation(s):
+// \country_controller|CurrentState.green_n~0_combout  = (\country_controller|Selector3~0_combout  & ((\country_controller|CurrentState.green_n~q ) # (\country_controller|Selector0~0_combout  $ (!\highway_controller|Selector2~2_combout )))) # 
+// (!\country_controller|Selector3~0_combout  & (\country_controller|CurrentState.green_n~q  & (\country_controller|Selector0~0_combout  $ (!\highway_controller|Selector2~2_combout ))))
+
+	.dataa(\country_controller|Selector0~0_combout ),
+	.datab(\country_controller|Selector3~0_combout ),
+	.datac(\country_controller|CurrentState.green_n~q ),
+	.datad(\highway_controller|Selector2~2_combout ),
+	.cin(gnd),
+	.combout(\country_controller|CurrentState.green_n~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \country_controller|CurrentState.green_n~0 .lut_mask = 16'hE8D4;
+defparam \country_controller|CurrentState.green_n~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N19
+dffeas \country_controller|CurrentState.green_n (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\country_controller|CurrentState.green_n~0_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\country_controller|CurrentState.green_n~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \country_controller|CurrentState.green_n .is_wysiwyg = "true";
+defparam \country_controller|CurrentState.green_n .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X23_Y69_N24
+cycloneive_lcell_comb \highway_controller|Selector2~3 (
+// Equation(s):
+// \highway_controller|Selector2~3_combout  = (\timer|counter [1] & (\timer|counter [3] & (!\timer|counter [2] & \timer|counter [0])))
+
+	.dataa(\timer|counter [1]),
+	.datab(\timer|counter [3]),
+	.datac(\timer|counter [2]),
+	.datad(\timer|counter [0]),
+	.cin(gnd),
+	.combout(\highway_controller|Selector2~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector2~3 .lut_mask = 16'h0800;
+defparam \highway_controller|Selector2~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N6
+cycloneive_lcell_comb \country_controller|Selector0~0 (
+// Equation(s):
+// \country_controller|Selector0~0_combout  = (\country_controller|CurrentState.green_n~q  & ((\highway_controller|Selector2~3_combout ) # (!\sensor_control|car~q )))
+
+	.dataa(gnd),
+	.datab(\country_controller|CurrentState.green_n~q ),
+	.datac(\sensor_control|car~q ),
+	.datad(\highway_controller|Selector2~3_combout ),
+	.cin(gnd),
+	.combout(\country_controller|Selector0~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \country_controller|Selector0~0 .lut_mask = 16'hCC0C;
+defparam \country_controller|Selector0~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N4
+cycloneive_lcell_comb \country_controller|Selector1~2 (
+// Equation(s):
+// \country_controller|Selector1~2_combout  = (\country_controller|Selector0~0_combout  & (((!\timer|Equal1~0_combout  & \country_controller|CurrentState.yellow_n~q )) # (!\country_controller|Selector3~0_combout ))) # 
+// (!\country_controller|Selector0~0_combout  & (\country_controller|CurrentState.yellow_n~q  & (\timer|Equal1~0_combout  $ (!\country_controller|Selector3~0_combout ))))
+
+	.dataa(\country_controller|Selector0~0_combout ),
+	.datab(\timer|Equal1~0_combout ),
+	.datac(\country_controller|CurrentState.yellow_n~q ),
+	.datad(\country_controller|Selector3~0_combout ),
+	.cin(gnd),
+	.combout(\country_controller|Selector1~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \country_controller|Selector1~2 .lut_mask = 16'h60BA;
+defparam \country_controller|Selector1~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N5
+dffeas \country_controller|CurrentState.yellow_n (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\country_controller|Selector1~2_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\country_controller|CurrentState.yellow_n~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \country_controller|CurrentState.yellow_n .is_wysiwyg = "true";
+defparam \country_controller|CurrentState.yellow_n .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N26
+cycloneive_lcell_comb \highway_controller|Selector3~0 (
+// Equation(s):
+// \highway_controller|Selector3~0_combout  = (\country_controller|CurrentState.yellow_n~q  & (\highway_controller|CurrentState.red_h~q  & \timer|Equal1~0_combout ))
+
+	.dataa(gnd),
+	.datab(\country_controller|CurrentState.yellow_n~q ),
+	.datac(\highway_controller|CurrentState.red_h~q ),
+	.datad(\timer|Equal1~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|Selector3~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector3~0 .lut_mask = 16'hC000;
+defparam \highway_controller|Selector3~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X24_Y69_N24
+cycloneive_lcell_comb \highway_controller|Selector0~0 (
+// Equation(s):
+// \highway_controller|Selector0~0_combout  = (\highway_controller|Selector3~0_combout  & (\highway_controller|CurrentState.red_h~q  & (\highway_controller|Selector2~1_combout  $ (\highway_controller|enable_n~0_combout )))) # 
+// (!\highway_controller|Selector3~0_combout  & ((\highway_controller|Selector2~1_combout  & (\highway_controller|CurrentState.red_h~q  & \highway_controller|enable_n~0_combout )) # (!\highway_controller|Selector2~1_combout  & 
+// ((\highway_controller|CurrentState.red_h~q ) # (\highway_controller|enable_n~0_combout )))))
+
+	.dataa(\highway_controller|Selector3~0_combout ),
+	.datab(\highway_controller|Selector2~1_combout ),
+	.datac(\highway_controller|CurrentState.red_h~q ),
+	.datad(\highway_controller|enable_n~0_combout ),
+	.cin(gnd),
+	.combout(\highway_controller|Selector0~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \highway_controller|Selector0~0 .lut_mask = 16'h7190;
+defparam \highway_controller|Selector0~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X24_Y69_N25
+dffeas \highway_controller|CurrentState.red_h (
+	.clk(\clk~inputclkctrl_outclk ),
+	.d(\highway_controller|Selector0~0_combout ),
+	.asdata(vcc),
+	.clrn(\rst_n~inputclkctrl_outclk ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\highway_controller|CurrentState.red_h~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \highway_controller|CurrentState.red_h .is_wysiwyg = "true";
+defparam \highway_controller|CurrentState.red_h .power_up = "low";
+// synopsys translate_on
+
+assign highway_light[0] = \highway_light[0]~output_o ;
+
+assign highway_light[1] = \highway_light[1]~output_o ;
+
+assign highway_light[2] = \highway_light[2]~output_o ;
+
+assign country_light[0] = \country_light[0]~output_o ;
+
+assign country_light[1] = \country_light[1]~output_o ;
+
+assign country_light[2] = \country_light[2]~output_o ;
+
+endmodule
+
+module hard_block (
+
+	devpor,
+	devclrn,
+	devoe);
+
+// Design Ports Information
+// ~ALTERA_ASDO_DATA1~	=>  Location: PIN_F4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_FLASH_nCE_nCSO~	=>  Location: PIN_E2,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DCLK~	=>  Location: PIN_P3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_DATA0~	=>  Location: PIN_N7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ~ALTERA_nCEO~	=>  Location: PIN_P28,	 I/O Standard: 2.5 V,	 Current Strength: 8mA
+
+input 	devpor;
+input 	devclrn;
+input 	devoe;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+wire \~ALTERA_ASDO_DATA1~~padout ;
+wire \~ALTERA_FLASH_nCE_nCSO~~padout ;
+wire \~ALTERA_DATA0~~padout ;
+wire \~ALTERA_ASDO_DATA1~~ibuf_o ;
+wire \~ALTERA_FLASH_nCE_nCSO~~ibuf_o ;
+wire \~ALTERA_DATA0~~ibuf_o ;
+
+
+endmodule

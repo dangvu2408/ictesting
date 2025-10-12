@@ -1,0 +1,178 @@
+m255
+K3
+z0
+!s12c _opt1
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+cModel Technology
+Z1 dC:\sv
+T_opt
+VT_Q3[?JSNAo`<C]20ih?e2
+Z2 04 11 4 work testtraffic fast 0
+=1-0016eaeec1b6-555d8e2b-20d-1be8
+o-quiet -auto_acc_if_foreign -work work -O0
+n@_opt
+Z3 OL;O;10.1c;51
+R1
+T_opt1
+!s110 1760163140
+V^6nfjJX7K>C0Bj<:z1o0W0
+R2
+=1-b48c9d17587f-68e9f544-162-1108
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt1
+OL;O;2024.1;79
+T_opt2
+Vee]OYJAgN[@`]jhOBDm?Z1
+R2
+=1-0016eaeec1b6-555d8e62-f8-c7c
+o-quiet -auto_acc_if_foreign -work work
+n@_opt2
+R3
+R1
+vcountry_fsm
+Z5 2D:/backup_later/ET4356/QuestaSim/traffic/traffic-fsm.v
+Z6 !s110 1760163131
+!i10b 1
+!s100 AeDOJ351ab@AJ??bWk5IL0
+I5V_8ZbR6_^BaP?5z[3_ob1
+Z7 dD:/backup_later/ET4356/QuestaSim/traffic
+Z8 w1760133960
+Z9 8D:/backup_later/ET4356/QuestaSim/traffic/traffic-fsm.v
+Z10 FD:/backup_later/ET4356/QuestaSim/traffic/traffic-fsm.v
+!i122 23
+L0 248 65
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2024.1;79
+r1
+!s85 0
+31
+!i113 0
+Z13 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vhighway_fsm
+R5
+R6
+!i10b 1
+!s100 @ZSZFF8XmONLT3O;OfDIz0
+IWR_F>iQ[DU3EezCQU`jVM2
+R7
+R8
+R9
+R10
+!i122 23
+L0 185 62
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4
+vmain
+R5
+R6
+!i10b 1
+!s100 [B9f^ILA]nWR6@W3mk8PF1
+I=hRDDmKNLJlQN[lII;0Ik1
+R7
+R8
+R9
+R10
+!i122 23
+L0 10 116
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4
+vsensor_fsm
+R5
+R6
+!i10b 1
+!s100 ]0bD_kf;Sb]JRInhZ`G=E0
+I<80Cb0LdfkH8]e_H393mU0
+R7
+R8
+R9
+R10
+!i122 23
+L0 127 26
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4
+vtesttraffic
+2D:\backup_later\ET4356\QuestaSim\traffic\testbench.v
+R6
+!i10b 1
+!s100 QeECXZ4Mm_UkL8ji15EX[0
+I=>^Jm1R;]>nYEfOkY4EK]0
+R7
+R8
+8D:\backup_later\ET4356\QuestaSim\traffic\testbench.v
+FD:\backup_later\ET4356\QuestaSim\traffic\testbench.v
+!i122 24
+L0 1 36
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4
+vtimer_fsm
+R5
+R6
+!i10b 1
+!s100 3ad8UgA]WiUWVP_5`Y]nh3
+Ic8K=V>aHEQ=kXc=0TKfFj0
+R7
+R8
+R9
+R10
+!i122 23
+L0 154 30
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4
+vtraffic_controller
+2D:/backup_later/ET4356/QuestaSim/traffic/traffic.v
+R6
+!i10b 1
+!s100 k^XKOETabECX<jlIAZB[62
+I?GfH_Z^ja7QCoo1D]KD732
+R7
+R8
+8D:/backup_later/ET4356/QuestaSim/traffic/traffic.v
+FD:/backup_later/ET4356/QuestaSim/traffic/traffic.v
+!i122 22
+L0 42 79
+R11
+R12
+r1
+!s85 0
+31
+!i113 0
+R13
+R4

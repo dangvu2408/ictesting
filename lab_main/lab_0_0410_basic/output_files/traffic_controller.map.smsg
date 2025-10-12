@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at traffic.v(58): object "Timeout" differs only in case from object "timeout" in the same scope File: D:/backup_later/ET4356/QuestaSim/traffic/traffic.v Line: 58
+Info (10281): Verilog HDL Declaration information at traffic.v(155): object "Timeout" differs only in case from object "timeout" in the same scope File: D:/backup_later/ET4356/QuestaSim/traffic/traffic.v Line: 155
+Info (10281): Verilog HDL Declaration information at traffic.v(190): object "Timeout" differs only in case from object "timeout" in the same scope File: D:/backup_later/ET4356/QuestaSim/traffic/traffic.v Line: 190
+Info (10281): Verilog HDL Declaration information at traffic.v(248): object "Timeout" differs only in case from object "timeout" in the same scope File: D:/backup_later/ET4356/QuestaSim/traffic/traffic.v Line: 248

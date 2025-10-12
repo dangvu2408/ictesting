@@ -1,0 +1,76 @@
+|traffic_controller
+clk => clk.IN4
+rst_n => rst_n.IN4
+car_sensor => car_sensor.IN1
+highway_light[0] <= highway_fsm:highway_controller.light_h
+highway_light[1] <= highway_fsm:highway_controller.light_h
+highway_light[2] <= highway_fsm:highway_controller.light_h
+country_light[0] <= country_fsm:country_controller.light_n
+country_light[1] <= country_fsm:country_controller.light_n
+country_light[2] <= country_fsm:country_controller.light_n
+
+
+|traffic_controller|sensor_fsm:sensor_control
+clk => car~reg0.CLK
+rst_n => car~reg0.ACLR
+sensor => car~reg0.DATAIN
+car <= car~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_controller|timer_fsm:timer
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+rst_n => counter[0].PRESET
+rst_n => counter[1].ACLR
+rst_n => counter[2].ACLR
+rst_n => counter[3].ACLR
+start => counter.OUTPUTSELECT
+start => counter.OUTPUTSELECT
+start => counter.OUTPUTSELECT
+start => counter.OUTPUTSELECT
+Timeout <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+timeout <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_controller|highway_fsm:highway_controller
+clk => CurrentState~1.DATAIN
+rst_n => CurrentState~3.DATAIN
+car => always0.IN0
+Timeout => always0.IN1
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => enable_n.DATAB
+enable_h => NextState.OUTPUTSELECT
+enable_h => NextState.OUTPUTSELECT
+enable_h => NextState.OUTPUTSELECT
+enable_h => Selector3.IN2
+enable_n <= enable_n.DB_MAX_OUTPUT_PORT_TYPE
+start_h <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+light_h[0] <= light_h[0].DB_MAX_OUTPUT_PORT_TYPE
+light_h[1] <= light_h[1].DB_MAX_OUTPUT_PORT_TYPE
+light_h[2] <= light_h[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic_controller|country_fsm:country_controller
+clk => CurrentState~1.DATAIN
+rst_n => CurrentState~3.DATAIN
+car => always0.IN0
+Timeout => always0.IN1
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => NextState.OUTPUTSELECT
+timeout => enable_h.DATAB
+enable_h <= enable_h.DB_MAX_OUTPUT_PORT_TYPE
+enable_n => NextState.OUTPUTSELECT
+enable_n => NextState.OUTPUTSELECT
+enable_n => NextState.OUTPUTSELECT
+enable_n => Selector3.IN2
+start_n <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+light_n[0] <= light_n[0].DB_MAX_OUTPUT_PORT_TYPE
+light_n[1] <= light_n[1].DB_MAX_OUTPUT_PORT_TYPE
+light_n[2] <= light_n[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

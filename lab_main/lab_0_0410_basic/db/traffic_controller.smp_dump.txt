@@ -1,0 +1,12 @@
+
+State Machine - |traffic_controller|country_fsm:country_controller|CurrentState
+Name CurrentState.green_n CurrentState.yellow_n CurrentState.red_n 
+CurrentState.red_n 0 0 0 
+CurrentState.yellow_n 0 1 1 
+CurrentState.green_n 1 0 1 
+
+State Machine - |traffic_controller|highway_fsm:highway_controller|CurrentState
+Name CurrentState.green_h CurrentState.yellow_h CurrentState.red_h 
+CurrentState.green_h 0 0 0 
+CurrentState.yellow_h 1 1 0 
+CurrentState.red_h 1 0 1 

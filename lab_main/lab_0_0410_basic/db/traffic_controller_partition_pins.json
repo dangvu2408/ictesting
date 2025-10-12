@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "highway_light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_light[1]",
+					"strict" : false
+				},
+				{
+					"name" : "highway_light[2]",
+					"strict" : false
+				},
+				{
+					"name" : "country_light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "country_light[1]",
+					"strict" : false
+				},
+				{
+					"name" : "country_light[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "car_sensor",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

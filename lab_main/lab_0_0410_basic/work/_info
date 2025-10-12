@@ -56,6 +56,7 @@ Z7 o-quiet -auto_acc_if_foreign -work work +acc
 Z8 tCvgOpt 0
 n@_opt
 Z9 OL;O;2024.1;79
+R3
 T_opt1
 !s110 1760153443
 VH[SHCm3kY3MB>?7>bXO0B2
@@ -85,372 +86,372 @@ n@_opt2
 R9
 R3
 valu32_pure
-Z10 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
+2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
 !s110 1760153270
 !i10b 1
 !s100 ;Pl<S8Md8HWIgJVZFXh=K2
 I7aUmiIcU]TXI0;E2TV>ei0
-Z11 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic
+Z10 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic
 w1760153264
-Z12 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
-Z13 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
+8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
+FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v
 !i122 135
-Z14 L0 1 50
-Z15 VDg1SIo80bB@j0V0VzS_@n1
-Z16 OL;L;2024.1;79
+Z11 L0 1 50
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2024.1;79
 r1
 !s85 0
 31
 !s108 1760153270.000000
-Z17 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v|
+!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit.v|
 !i113 0
-Z19 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R8
 valu_32bit
-R10
-Z20 !s110 1760155935
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit.v
+!s110 1760169356
 !i10b 1
 !s100 [7nZc>d4aiU?3BY8cSkkH1
-INWVHQo1BIXLozG:Uzl^[A2
-R11
+I15F[R7flaAo0K_lWEOf^c2
+R10
 w1760153282
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit.v
+!i122 182
+R11
 R12
 R13
-!i122 178
-R14
-R15
-R16
 r1
 !s85 0
 31
-Z21 !s108 1760155935.000000
-R17
-R18
+Z15 !s108 1760169356.000000
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit.v|
 !i113 0
-R19
+R14
 R8
 valu_32bit_tb
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit_tb.v
-R20
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit_tb.v
+Z16 !s110 1760169357
 !i10b 1
 !s100 Aom_dGblTL8V;glibDNUL0
-IA4hML4f0@9hK:dN[SEYd?2
-R11
+I_LJ8g?FAEnMhkL9W?:[fL2
+R10
 w1760153427
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit_tb.v
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit_tb.v
-!i122 179
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit_tb.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit_tb.v
+!i122 183
 L0 3 79
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R21
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\alu_32bit_tb.v|
+R15
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/alu_32bit_tb.v|
 !i113 0
-R19
+R14
 R8
 vbit_pattern
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern.v
-R20
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern.v
+R16
 !i10b 1
 !s100 T`D_`HM[@>OgaK_Qm0fb=2
-IWk1<cMlRl=U_^Nd5HEoG<3
-R11
+I8_`c:?gl?f_o8g1;ka`2N0
+R10
 w1760155703
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern.v
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern.v
-!i122 180
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern.v
+!i122 184
 L0 1 39
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R21
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern.v|
+Z17 !s108 1760169357.000000
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern.v|
 !i113 0
-R19
+R14
 R8
 vbit_pattern_tb
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern_tb.v
-R20
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern_tb.v
+R16
 !i10b 1
 !s100 ;lBNOhVTVmb=>>o;do[Un0
-I=Xn5]d<ad6?fYU2GQWjQN2
-R11
+IM22z=PGfbJYH>`ziScXd43
+R10
 w1760155928
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern_tb.v
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern_tb.v
-!i122 181
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern_tb.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern_tb.v
+!i122 185
 L0 1 31
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R21
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\bit_pattern_tb.v|
+R17
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/bit_pattern_tb.v|
 !i113 0
-R19
+R14
 R8
 vdecoder3to8
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v
-Z22 !s110 1760155934
+R16
 !i10b 1
 !s100 4WRoa@`0EoJgnN8mM1j;A3
 I7c4CQfojbfL?OPGF:deRH0
-R11
+R10
 w1759922743
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v
-!i122 172
+!i122 186
 L0 1 6
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-Z23 !s108 1760155934.000000
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8.v|
 !i113 0
-R19
+R14
 R8
 vdecoder3to8_tb
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v
-R22
+R16
 !i10b 1
 !s100 Wdz;E``7X[2VZZO45494G2
 IK1LNISF6G?nBON[<aNfa>0
-R11
+R10
 w1759922840
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v
-!i122 173
+!i122 187
 L0 2 27
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v|
 !i113 0
-R19
+R14
 R8
 vdemux1to8
-Z24 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
+Z18 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
 !s110 1760091984
 !i10b 1
 !s100 0o`A8oCV4?f:4@cHH=>`=2
 IE_6NgT:n]OGOSMNC[:SF83
-R11
+R10
 w1759627047
-Z25 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
-Z26 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
+Z19 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
+Z20 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
 !i122 89
-Z27 L0 1 16
-R15
-R16
+Z21 L0 1 16
+R12
+R13
 r1
 !s85 0
 31
 !s108 1760091984.000000
-Z28 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v|
-Z29 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v|
+Z22 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v|
+Z23 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v|
 !i113 0
-R19
+R14
 R8
 vdemux_1to8
-R24
-R22
+R18
+R16
 !i10b 1
 !s100 EheOa]MzgMTEG_CRbZf3h1
 Iz7i97HF3zEOJaLWEfF;I`0
-R11
+R10
 w1760148251
-R25
-R26
-!i122 168
-R27
-R15
-R16
+R19
+R20
+!i122 188
+R21
+R12
+R13
 r1
 !s85 0
 31
+R17
+R22
 R23
-R28
-R29
 !i113 0
-R19
+R14
 R8
 vencoder8to3
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v
-R22
+R16
 !i10b 1
 !s100 IBQOz@caOC9Oka_gd=YE81
 I8I_LYBo:<X=kg45Bn2gGn2
-R11
+R10
 w1759922762
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v
-!i122 170
+!i122 190
 L0 1 18
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3.v|
 !i113 0
-R19
+R14
 R8
 vencoder8to3_tb
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v
-R22
+R16
 !i10b 1
 !s100 4e@a8?=MmnJYiRBAl=EOj2
 IQBQ_E[lZPGi=@Q5DmKd4j0
-R11
+R10
 w1759922896
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v
-!i122 171
+!i122 191
 L0 2 30
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/encoder_8to3_tb.v|
 !i113 0
-R19
+R14
 R8
 vled_7seg
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg.v
-R22
+R16
 !i10b 1
 !s100 GZj7`<[IlgWPA2UkQ12]A1
 I^@YAm]KnRXdbIC_?1_ig01
-R11
+R10
 w1760004108
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg.v
-!i122 174
+!i122 192
 L0 1 22
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg.v|
 !i113 0
-R19
+R14
 R8
 vmajority8
-Z30 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
+2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
 !s110 1760010769
 !i10b 1
 !s100 ^0LRmS^=X:nPEYA^0=Hbe0
 I:U=oHj@`Xe0?_c@N8nGDU3
-R11
+R10
 w1760010685
-Z31 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
-Z32 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
+8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
+FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v
 !i122 73
-Z33 L0 1 11
-R15
-R16
+Z24 L0 1 11
+R12
+R13
 r1
 !s85 0
 31
 !s108 1760010769.000000
-Z34 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v|
-Z35 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v|
+!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit.v|
 !i113 0
-R19
+R14
 R8
 vmajority_8bit
-R30
-R20
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v
+R16
 !i10b 1
 !s100 B7F6R[650^6ANS0c7X:HX0
-I648_JQfKDU9R@eJP`bGfe0
-R11
+I7A[YSC4njMl[?m[eY4OK<0
+R10
 w1760010793
-R31
-R32
-!i122 176
-R33
-R15
-R16
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v
+!i122 194
+R24
+R12
+R13
 r1
 !s85 0
 31
-R21
-R34
-R35
+R17
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v|
 !i113 0
-R19
+R14
 R8
 vmajority_8bit_tb
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit_tb.v
-R20
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v
+Z25 !s110 1760169358
 !i10b 1
 !s100 KnY4iP4gZ8eN12z1_]<Q_2
-Izcb=M:9V3VolKGFT`Ihz12
-R11
+IY[9F=GhHO@dOa9VQ<bch=2
+R10
 w1760151599
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit_tb.v
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit_tb.v
-!i122 177
-Z36 L0 3 27
-R15
-R16
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v
+!i122 195
+Z26 L0 3 27
+R12
+R13
 r1
 !s85 0
 31
-R21
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit_tb.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\majority_8bit_tb.v|
+Z27 !s108 1760169358.000000
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v|
 !i113 0
-R19
+R14
 R8
 vmultiplexer_8to1
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v
-R22
+R25
 !i10b 1
 !s100 I0HoCe1dD7E92<Ag7RUUX0
 IPPb7cCof5Z=J1?4DkjbMz0
-R11
+R10
 w1760090996
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v
-!i122 166
-R27
-R15
-R16
+!i122 196
+R21
+R12
+R13
 r1
 !s85 0
 31
-R23
+R27
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v|
 !i113 0
-R19
+R14
 R8
 vmux8to1
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v
@@ -458,14 +459,14 @@ vmux8to1
 !i10b 1
 !s100 ZU@jgNXU`gnmW3QGSOE@A1
 I==I7ZN`9RH47;ZTLWeWH=2
-R11
+R10
 w1760004101
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v
 !i122 75
-R27
-R15
-R16
+R21
+R12
+R13
 r1
 !s85 0
 31
@@ -473,74 +474,120 @@ r1
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\multiplexer_8to1.v|
 !i113 0
-R19
+R14
+R8
+vmux8to1_design
+Z28 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v
+R25
+!i10b 1
+!s100 D<@hbTWBM@I;ULR9:LNEm0
+I0Tle8z_UgHJZBnc5@C@DT3
+R10
+Z29 w1760002787
+Z30 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v
+Z31 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v
+!i122 198
+L0 1 15
+R12
+R13
+r1
+!s85 0
+31
+R27
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v|
+!i113 0
+R14
 R8
 vtb_demux1to8
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v
-R22
+R16
 !i10b 1
 !s100 a`aF6kafZeOg45O6b=9En0
 I_OCfL`:ng1J9OjfnWScA=2
-R11
+R10
 w1759627083
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v
-!i122 169
+!i122 189
 L0 3 31
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8_tb.v|
 !i113 0
-R19
+R14
 R8
 vtb_led_7seg
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v
-R20
+R16
 !i10b 1
 !s100 9J=ac3a<1]cZniBlbHB1I3
 I9C[zX6k3TLZYeQXLJ;R^S0
-R11
+R10
 w1759971727
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v
-!i122 175
-R36
-R15
-R16
+!i122 193
+R26
+R12
+R13
 r1
 !s85 0
 31
-R23
+R17
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/led_7seg_tb.v|
 !i113 0
-R19
+R14
 R8
 vtb_mux8to1
 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
-R22
+R25
 !i10b 1
 !s100 11H[iaec3[?F7NVdNJ:lF2
 IW:lTIc]Pl;DiSzZ@CXN>Y2
-R11
+R10
 w1760091032
 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
-!i122 167
+!i122 197
 L0 3 32
-R15
-R16
+R12
+R13
 r1
 !s85 0
 31
-R23
+R27
 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v|
 !i113 0
-R19
+R14
+R8
+vtb_mux8to1_design
+R28
+R25
+!i10b 1
+!s100 :f1RWjjY>?mG]>9[3hEaO2
+I6TJeLgBWO4`jdJ7RQ@<mU3
+R10
+R29
+R30
+R31
+!i122 198
+L0 19 32
+R12
+R13
+r1
+!s85 0
+31
+R27
+Z33 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/mux8to1_design.v|
+R32
+!i113 0
+R14
 R8
