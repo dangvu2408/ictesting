@@ -1,0 +1,70 @@
+|sipo_register
+clk => clk.IN8
+rst => rst.IN8
+serial_in => serial_in.IN1
+q[0] <= d[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= d[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= d[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= d[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= d[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= d[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= d[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= dflipflops:sipo_bits[7].dff.q
+
+
+|sipo_register|dflipflops:sipo_bits[0].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[1].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[2].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[3].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[4].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[5].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[6].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sipo_register|dflipflops:sipo_bits[7].dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

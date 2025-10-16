@@ -1,0 +1,136 @@
+|piso_register
+clk => clk.IN8
+rst => rst.IN8
+shift_load => shift_load.IN8
+serial_in => bit_slice[0].shift_source.IN1
+parallel_in[0] => parallel_in[0].IN1
+parallel_in[1] => parallel_in[1].IN1
+parallel_in[2] => parallel_in[2].IN1
+parallel_in[3] => parallel_in[3].IN1
+parallel_in[4] => parallel_in[4].IN1
+parallel_in[5] => parallel_in[5].IN1
+parallel_in[6] => parallel_in[6].IN1
+parallel_in[7] => parallel_in[7].IN1
+serial_out <= dflipflops:bit_slice[7].u_dff.q
+q[0] <= bit_slice[1].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= bit_slice[2].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= bit_slice[3].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= bit_slice[4].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= bit_slice[5].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= bit_slice[6].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= bit_slice[7].shift_source.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= dflipflops:bit_slice[7].u_dff.q
+
+
+|piso_register|mux_2to1:bit_slice[0].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[0].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[1].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[1].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[2].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[2].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[3].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[3].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[4].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[4].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[5].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[5].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[6].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[6].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|mux_2to1:bit_slice[7].u_mux
+a => y.DATAA
+b => y.DATAB
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|piso_register|dflipflops:bit_slice[7].u_dff
+clk => q~reg0.CLK
+rst => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
