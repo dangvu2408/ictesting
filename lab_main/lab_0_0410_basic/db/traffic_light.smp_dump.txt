@@ -1,0 +1,7 @@
+
+State Machine - |traffic_light|state
+Name state.H2_YELLOW state.H2_GREEN state.H1_YELLOW state.H1_GREEN 
+state.H1_GREEN 0 0 0 0 
+state.H1_YELLOW 0 0 1 1 
+state.H2_GREEN 0 1 0 1 
+state.H2_YELLOW 1 0 0 1 

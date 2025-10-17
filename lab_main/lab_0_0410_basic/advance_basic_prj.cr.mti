@@ -61,6 +61,14 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	demux_1to8
 
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/sipo_register.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/sipo_register.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module dflipflops
+-- Compiling module sipo_register
+
+Top level modules:
+	sipo_register
+
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\piso_register.v}
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module mux_2to1
@@ -83,6 +91,13 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 
 Top level modules:
 	bit_pattern_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\pattern_1011_shift_tb.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_pattern_1011_shift
+
+Top level modules:
+	tb_pattern_1011_shift
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
@@ -119,12 +134,26 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	shift_register_piso
 
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\pattern_1011_shift.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module pattern_1011_shift
+
+Top level modules:
+	pattern_1011_shift
+
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/majority_8bit.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module majority_8bit
 
 Top level modules:
 	majority_8bit
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\traffic_light.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module traffic_light
+
+Top level modules:
+	traffic_light
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
