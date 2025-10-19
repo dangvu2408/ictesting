@@ -1,0 +1,16 @@
+
+State Machine - |dti_seq_dect_fsm|state
+Name state.S3 state.S2 state.S1 state.S0 state.S4 
+state.S0 0 0 0 0 0 
+state.S1 0 0 1 1 0 
+state.S2 0 1 0 1 0 
+state.S3 1 0 0 1 0 
+state.S4 0 0 0 1 1 
+
+State Machine - |dti_seq_dect_fsm|next_state
+Name next_state.S3 next_state.S2 next_state.S1 next_state.S0 next_state.S4 
+next_state.S0 0 0 0 0 0 
+next_state.S1 0 0 1 1 0 
+next_state.S2 0 1 0 1 0 
+next_state.S3 1 0 0 1 0 
+next_state.S4 0 0 0 1 1 

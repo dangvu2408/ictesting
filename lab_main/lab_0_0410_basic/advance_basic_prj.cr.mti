@@ -12,6 +12,13 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	encoder8to3_tb
 
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_traffic_light
+
+Top level modules:
+	tb_traffic_light
+
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/multiplexer_8to1_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_mux8to1
@@ -26,7 +33,7 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	tb_sipo_register
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\piso_register_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module piso_register_tb
 
@@ -54,12 +61,28 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	encoder8to3
 
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/addbit_assignment_1810_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/addbit_assignment_1810_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module adder4bit_tb
+
+Top level modules:
+	adder4bit_tb
+
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/demux_1to8.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module demux_1to8
 
 Top level modules:
 	demux_1to8
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module mux_2to1
+-- Compiling module dflipflops
+-- Compiling module piso_register
+
+Top level modules:
+	piso_register
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/sipo_register.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/sipo_register.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
@@ -68,15 +91,6 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 
 Top level modules:
 	sipo_register
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/piso_register.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\piso_register.v}
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module mux_2to1
--- Compiling module dflipflops
--- Compiling module piso_register
-
-Top level modules:
-	piso_register
 
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/decoder_3to8_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
@@ -92,7 +106,19 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	bit_pattern_tb
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\pattern_1011_shift_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/addbit_assignment_1810.v {0 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/addbit_assignment_1810.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module full_adder
+** Error: (vlog-13069) D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/addbit_assignment_1810.v(2): near ";": syntax error, unexpected ';', expecting ')'.
+
+} {4.0 5.0} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/dti_updown_count_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/dti_updown_count_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_dti_updown_count
+
+Top level modules:
+	tb_dti_updown_count
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module tb_pattern_1011_shift
 
@@ -127,14 +153,21 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	decoder3to8
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\shift_register_piso.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module shift_register_piso
 
 Top level modules:
 	shift_register_piso
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\pattern_1011_shift.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/dti_updown_count.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/dti_updown_count.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module dti_updown_count
+
+Top level modules:
+	dti_updown_count
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/pattern_1011_shift.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module pattern_1011_shift
 
@@ -148,7 +181,7 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	majority_8bit
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\traffic_light.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/traffic_light.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module traffic_light
 
@@ -177,7 +210,14 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	tb_mux8to1_design
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\shift_register_piso_tb.v}
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/delay_1810.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/delay_1810.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module delay_1810
+
+Top level modules:
+	delay_1810
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/shift_register_piso_tb.v
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module shift_register_piso_tb
 

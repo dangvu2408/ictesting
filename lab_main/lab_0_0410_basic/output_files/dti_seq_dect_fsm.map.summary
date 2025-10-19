@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 19 13:56:14 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : dti_seq_dect_fsm
+Top-level Entity Name : dti_seq_dect_fsm
+Family : Cyclone IV E
+Total logic elements : 13
+    Total combinational functions : 8
+    Dedicated logic registers : 10
+Total registers : 10
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

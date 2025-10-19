@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "detect",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "s_in",
+					"strict" : false
+				},
+				{
+					"name" : "ref_patt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "load_en",
+					"strict" : false
+				},
+				{
+					"name" : "ref_patt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ref_patt[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ref_patt[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
