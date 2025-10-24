@@ -1,0 +1,61 @@
+|CRA_adder
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+Cin => C[0].IN1
+Sum[0] <= full_adder:full_adder_stage[0].FA.sum
+Sum[1] <= full_adder:full_adder_stage[1].FA.sum
+Sum[2] <= full_adder:full_adder_stage[2].FA.sum
+Sum[3] <= full_adder:full_adder_stage[3].FA.sum
+Cout <= full_adder:full_adder_stage[3].FA.cout
+
+
+|CRA_adder|full_adder:full_adder_stage[0].FA
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+cin => sum.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CRA_adder|full_adder:full_adder_stage[1].FA
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+cin => sum.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CRA_adder|full_adder:full_adder_stage[2].FA
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+cin => sum.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CRA_adder|full_adder:full_adder_stage[3].FA
+a => sum.IN0
+a => cout.IN0
+b => sum.IN1
+b => cout.IN1
+cin => sum.IN1
+cin => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

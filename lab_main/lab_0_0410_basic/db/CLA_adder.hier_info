@@ -1,0 +1,95 @@
+|CLA_adder
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => cin.IN2
+sum[0] <= bit_adder_cla:bit_block[0].ADD.s
+sum[1] <= bit_adder_cla:bit_block[1].ADD.s
+sum[2] <= bit_adder_cla:bit_block[2].ADD.s
+sum[3] <= bit_adder_cla:bit_block[3].ADD.s
+cout <= cla_logic:CLA_LOGIC.c
+
+
+|CLA_adder|cla_logic:CLA_LOGIC
+p[0] => c.IN0
+p[0] => c.IN0
+p[0] => c.IN1
+p[0] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[1] => c.IN0
+p[1] => c.IN1
+p[2] => c.IN0
+p[2] => c.IN1
+p[2] => c.IN0
+p[3] => c.IN0
+p[3] => c.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[0] => c.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[1] => c.IN1
+g[2] => c.IN1
+g[2] => c.IN1
+g[3] => c.IN1
+cin => c.IN1
+cin => c.IN1
+cin => c.IN1
+cin => c.IN1
+c[1] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA_adder|bit_adder_cla:bit_block[0].ADD
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA_adder|bit_adder_cla:bit_block[1].ADD
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA_adder|bit_adder_cla:bit_block[2].ADD
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA_adder|bit_adder_cla:bit_block[3].ADD
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+cin => s.IN1
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
