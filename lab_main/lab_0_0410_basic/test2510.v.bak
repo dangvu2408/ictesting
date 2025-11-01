@@ -1,0 +1,18 @@
+
+module test2510 (
+    input  wire        clk,
+    input  wire [3:0]  C,
+    input  wire [3:0]  D,
+    output wire [3:0]  E
+);
+
+    logic [3:0] A, B;
+
+    always_ff @(posedge clk) begin
+        A <= C & D;   
+        B <= C | D;  
+    end
+
+    assign E = A + B;
+
+endmodule

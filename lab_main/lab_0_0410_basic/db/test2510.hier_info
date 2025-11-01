@@ -1,0 +1,31 @@
+|test2510
+clk => B[0].CLK
+clk => B[1].CLK
+clk => B[2].CLK
+clk => B[3].CLK
+clk => A[0].CLK
+clk => A[1].CLK
+clk => A[2].CLK
+clk => A[3].CLK
+C[0] => A.IN0
+C[0] => B.IN0
+C[1] => A.IN0
+C[1] => B.IN0
+C[2] => A.IN0
+C[2] => B.IN0
+C[3] => A.IN0
+C[3] => B.IN0
+D[0] => A.IN1
+D[0] => B.IN1
+D[1] => A.IN1
+D[1] => B.IN1
+D[2] => A.IN1
+D[2] => B.IN1
+D[3] => A.IN1
+D[3] => B.IN1
+E[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+E[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+E[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+E[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

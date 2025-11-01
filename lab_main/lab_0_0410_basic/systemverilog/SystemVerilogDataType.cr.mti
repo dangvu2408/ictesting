@@ -1,0 +1,52 @@
+D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/dynamic_array.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module dynamic_array
+
+Top level modules:
+	dynamic_array
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/enumerated_type.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module enum_ranges
+
+Top level modules:
+	enum_ranges
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/enum_test.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/unpacked_array.sv {2 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module unpacked_array
+** Warning: D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv(6): (vlog-2897) Using non-standard foreach loop variable list syntax.
+
+Top level modules:
+	unpacked_array
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/enumerated_methods.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package enumerated_methods_sv_unit
+-- Compiling module enum_methods
+
+Top level modules:
+	enum_methods
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/packed_array.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module packed_array
+
+Top level modules:
+	packed_array
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/static_array.sv {1 {vlog -work work -vopt -sv -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module static_arr
+
+Top level modules:
+	static_arr
+
+} {} {}}
