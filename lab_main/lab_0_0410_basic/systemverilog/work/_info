@@ -1,11 +1,11 @@
 m255
 K4
 z2
-Z0 !s12c _opt1
+Z0 !s12c _opt2
 Z1 !s99 nomlopt
-Z2 !s12c _opt
+Z2 !s12c _opt1
 R1
-Z3 !s12c _opt2
+Z3 !s12c _opt
 R1
 R0
 R1
@@ -16,6 +16,8 @@ R1
 R0
 R1
 R2
+R1
+R3
 R1
 !s11f vlog 2024.1 2024.02, Feb  1 2024
 13
@@ -52,11 +54,12 @@ R8
 R9
 n@_opt1
 R10
+R4
 T_opt2
-!s110 1761979343
-Vhi56EY_@<?hnWD`No=o;00
-04 14 4 work unpacked_array fast 0
-=1-b48c9d17587f-6905abcf-1d1-31f0
+!s110 1761983823
+VO=@NMhG^N[_AhFm;2AbT<3
+04 7 4 work break_1 fast 0
+=1-b48c9d17587f-6905bd4d-224-43cc
 R1
 R5
 R6
@@ -65,113 +68,234 @@ R8
 R9
 n@_opt2
 R10
-R4
+vautomatic_task
+Z11 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/control_flow.sv
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z13 !s110 1761983686
+!i10b 1
+!s100 iWEWaD7Y;9?4h_nji^U6j0
+I0G7l?iCHFlTY2TORhi8XF3
+S1
+Z14 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog
+Z15 w1761983681
+Z16 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/control_flow.sv
+Z17 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/control_flow.sv
+!i122 118
+L0 226 13
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+Z19 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z20 !s108 1761983686.000000
+Z21 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/control_flow.sv|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/control_flow.sv|
+!i113 0
+Z23 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vblocking
+R11
+R12
+R13
+!i10b 1
+!s100 MfC=V]D7?_d6f:jdAfV=l2
+ICQ1H<2l?JmIEV>Zi]d29W1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 114 18
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vbreak_1
+R11
+R12
+R13
+!i10b 1
+!s100 fP]=5;R=QXob[dJ_a:8iR3
+IfW4Fe:5=zZUn@mbc3lYS?1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 95 8
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vcontinue_1
+R11
+R12
+R13
+!i10b 1
+!s100 MIkkogaLkm7FDiGcRnJRH3
+IaVFGS>Y6:UoRi6EKgUUIB1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 104 8
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vdo_while_example
+R11
+R12
+R13
+!i10b 1
+!s100 NNYO`E>1DF=XjNQZd^S=G0
+I`Ea4^jfE?lL]U]Cz7?X263
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 61 19
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
 vdynamic_array
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv
-Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z12 !s110 1761979905
+R12
+R13
 !i10b 1
 !s100 @HOmf_4CRjmUCogWHKc7;1
 IF7aPoEiB]F7>g?nPG;KZh1
 S1
-Z13 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog
+R14
 w1761979820
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv
-!i122 48
-Z14 L0 1 14
-Z15 VDg1SIo80bB@j0V0VzS_@n1
-Z16 OL;L;2024.1;79
+!i122 116
+Z24 L0 1 14
+R18
+R19
 r1
 !s85 0
 31
-Z17 !s108 1761979905.000000
+R20
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array.sv|
 !i113 0
-Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R23
 R9
 vdynamic_array_method
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array_method.sv
-R11
-!s110 1761979906
+R12
+R13
 !i10b 1
 !s100 n6liNn9<iRUC14zbE1`l90
 I:5K8SFUQGZQVYKZ=?TMMP3
 S1
-R13
-w1761979901
+R14
+w1761979940
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array_method.sv
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array_method.sv
-!i122 49
+!i122 117
 L0 1 16
-R15
-R16
+R18
+R19
 r1
 !s85 0
 31
-R17
+R20
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array_method.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\dynamic_array_method.sv|
 !i113 0
-R18
+R23
 R9
 venum_methods
-Z19 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
-R11
-DXx4 work 26 enumerated_methods_sv_unit 0 22 J9OZJ1kY1b?ED<MOBU?173
 R12
-R15
+R13
+!i10b 1
+!s100 XMX@Vi=9X?8`aGa@<=]kZ1
+IXE`Ull?5ZU@V7eX=YE9>m2
+Z25 !s105 main_sv_unit
+S1
+R14
+Z26 w1761981931
+Z27 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/main.sv
+Z28 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/main.sv
+!i122 119
+L0 41 11
+R18
+R19
 r1
 !s85 0
-!i10b 1
-!s100 nDg:Ioo;SGBa7X]R1:hdV0
-II8[n[>_D:@oV>R@c1EO^<3
-!s105 enumerated_methods_sv_unit
-S1
-R13
-Z20 w1761978792
-Z21 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
-Z22 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
-!i122 44
-L0 3 12
-R16
 31
-R17
-Z23 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv|
-Z24 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv|
+R20
+Z29 !s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/main.sv|
+Z30 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/main.sv|
 !i113 0
-R18
+R23
 R9
 venum_ranges
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv
-R11
 R12
-!i10b 1
-!s100 >0iO<[jB1izlhaf0TgF]D0
-Io6P`6jjTCZ@NfP^13`o<H2
-S1
 R13
-w1761978531
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv
-!i122 43
-L0 1 25
-R15
-R16
+!i10b 1
+!s100 ];l74;Yd;=OVzl=?5UXB53
+I5hWceMo;e5[R@:UF[YoWc0
+S1
+R14
+R26
+R27
+R28
+!i122 119
+L0 16 22
+R18
+R19
 r1
 !s85 0
 31
-R17
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_type.sv|
+R20
+R29
+R30
 !i113 0
-R18
+R23
 R9
 Xenumerated_methods_sv_unit
-R19
-R11
+2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
 R12
+Z31 !s110 1761983685
 VJ9OZJ1kY1b?ED<MOBU?173
 r1
 !s85 0
@@ -180,117 +304,442 @@ r1
 IJ9OZJ1kY1b?ED<MOBU?173
 !i103 1
 S1
+R14
+w1761978792
+8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
+FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv
+!i122 112
+L0 2 0
+R19
+31
+Z32 !s108 1761983685.000000
+!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enumerated_methods.sv|
+!i113 0
+R23
+R9
+vfor_example
+R11
+R12
 R13
+!i10b 1
+!s100 e<gTWc;^Ul8<:JS6U:M5`2
+I:0aC?iNEPgI`UN8`Gd7jD2
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 43 17
+R18
+R19
+r1
+!s85 0
+31
 R20
 R21
 R22
-!i122 44
-L0 2 0
-R16
-31
-R17
-R23
-R24
 !i113 0
+R23
+R9
+vforeach_example
+R11
+R12
+R13
+!i10b 1
+!s100 5YjJDDFK?modQo@cZBJX50
+ISn3ckcRWC[`XbfS@1^Khm1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 81 12
 R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vforever_example
+R11
+R12
+R13
+!i10b 1
+!s100 Y^3R20^oWDZK=VA7^eZ:43
+IJ?agGk2JUi^]o?MCT0IUb3
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 5 10
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vfunctions_passing_arguments_by_reference
+R11
+R12
+R13
+!i10b 1
+!s100 RiBaji=;TonoNIzd@_TKo3
+IgKWN>e`_[KgN0_WCm:0CR2
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 194 16
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vfunctions_passing_arguments_by_value
+R11
+R12
+R13
+!i10b 1
+!s100 FS1c;Y?YB6gZ2>F?O?J[h0
+INBn9ZGPc68JGfdKScbh]21
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 175 17
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vfunctions_using_declarations_and_directions
+R11
+R12
+R13
+!i10b 1
+!s100 _^GW=Re9BF1BSe;]AURM51
+I^`fBldMF0jGSB<a>KElC81
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 153 20
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
+R9
+vnon_blocking
+R11
+R12
+R13
+!i10b 1
+!s100 j<RJ?Uoj=nhkJ:X<E0[453
+Ic]1NYK7iVG7;fifP8h7F10
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 133 18
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
 R9
 vpacked_array
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv
-R11
 R12
+R31
 !i10b 1
 !s100 LLLVjaUBPNkfz@h8_ji_;2
 I6n8iML>6J`5EnokaM`N]C2
 S1
-R13
+R14
 w1761979174
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv
-!i122 46
-Z25 L0 1 12
-R15
-R16
+!i122 114
+L0 1 12
+R18
+R19
 r1
 !s85 0
 31
-R17
+R32
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\packed_array.sv|
 !i113 0
+R23
+R9
+vpacked_structures
+R12
+R13
+!i10b 1
+!s100 a4Pllg^X;Re6S:F@DlegP2
+IbMi[LaE3hbjHR82:`Yfzl2
+R25
+S1
+R14
+R26
+R27
+R28
+!i122 119
+L0 350 14
 R18
+R19
+r1
+!s85 0
+31
+R20
+R29
+R30
+!i113 0
+R23
+R9
+vqueue_methods
+R12
+R13
+!i10b 1
+!s100 KLfeZKVa75EadNK=mZYA<3
+IXb?E8j[SYQmgzQ[b7S^c^3
+R25
+S1
+R14
+R26
+R27
+R28
+!i122 119
+L0 296 23
+R18
+R19
+r1
+!s85 0
+31
+R20
+R29
+R30
+!i113 0
+R23
+R9
+vrepeat_example
+R11
+R12
+R13
+!i10b 1
+!s100 9hUVWn>n`P2_ik^3XdM061
+IlSZkZbPdP^_fjlQ;kijUT1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 16 7
+R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
 R9
 vstatic_arr
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv
-R11
 R12
+R31
 !i10b 1
 !s100 C?YoaT8>oVjT<QGbC9gQ40
 IlMFNbRnb4XN_hFVn[1Yec0
 S1
-R13
+R14
 w1761978947
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv
-!i122 45
+!i122 113
 L0 1 11
-R15
-R16
+R18
+R19
 r1
 !s85 0
 31
-R17
+R32
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\static_array.sv|
 !i113 0
-R18
+R23
 R9
-vtb
-2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv
+vstatic_task
 R11
 R12
-!i10b 1
-!s100 02h`[DAM^2FZB4LQROlbe2
-IdObf1][mU4nGbURXW<>143
-S1
 R13
-w1761978297
-8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv
-FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv
-!i122 42
-R25
+!i10b 1
+!s100 `LK^jF_NT>:JL0z8DI;hI2
+IPcng=722zR6F6EGk9Ma=O0
+S1
+R14
 R15
 R16
+R17
+!i122 118
+L0 212 12
+R18
+R19
 r1
 !s85 0
 31
-R17
-!s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\enum_test.sv|
+R20
+R21
+R22
 !i113 0
+R23
+R9
+vtb
+R12
+R13
+!i10b 1
+!s100 kBb80`bX5;4V5UXI6ACYk3
+IZnac;SznQUOdV`2gl`kOm2
+R25
+S1
+R14
+R26
+R27
+R28
+!i122 119
+L0 282 12
 R18
+R19
+r1
+!s85 0
+31
+R20
+R29
+R30
+!i113 0
+R23
+R9
+vtypedef_struct
+R12
+R13
+!i10b 1
+!s100 F]S?18W4i3fk80cblI3=R2
+IzgzY^e:o[LzUEJeMjW][H1
+R25
+S1
+R14
+R26
+R27
+R28
+!i122 119
+L0 321 21
+R18
+R19
+r1
+!s85 0
+31
+R20
+R29
+R30
+!i113 0
+R23
 R9
 vunpacked_array
 2D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv
-R11
 R12
+R31
 !i10b 1
 !s100 edT_G=V:MAGR9=XnL^A<D3
 IB]k?L=865LMoS;799SfA>2
 S1
-R13
+R14
 w1761979414
 8D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv
 FD:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv
-!i122 47
-R14
-R15
-R16
+!i122 115
+R24
+R18
+R19
 r1
 !s85 0
 31
-R17
+R32
 !s107 D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:\backup_later\ET4356\QuestaSim\lab_main\lab_0_0410_basic\systemverilog\unpacked_array.sv|
 !i113 0
+R23
+R9
+vwhile_example
+R11
+R12
+R13
+!i10b 1
+!s100 4PSM<bCd`KOJGGdC3e3od1
+I=Hf<X;QXBMijg6M4kd[J=1
+S1
+R14
+R15
+R16
+R17
+!i122 118
+L0 24 18
 R18
+R19
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 0
+R23
 R9
