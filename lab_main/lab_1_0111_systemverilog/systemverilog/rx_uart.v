@@ -1,15 +1,15 @@
-module uart_rx #(parameter fclk = 5000000)(
+module rx_uart #(parameter fclk = 5000000)(
     input  wire       clk,
     input  wire       rst_n,
     input  wire       rxd,       
     input  wire [2:0] baud,
-    input  wire       parity_en,
+    input  wire       parity,
     output reg  [7:0] data_out,
     output reg        do_rdy
 );
 
     reg [13:0] baud_cycle;
-    always @(*) begin
+    always @(baud) begin
         case (baud)
             0: baud_cycle = fclk/4800;
             1: baud_cycle = fclk/9600;
@@ -43,7 +43,7 @@ module uart_rx #(parameter fclk = 5000000)(
             case (state)
                 IDLE: begin
                     do_rdy <= 0;
-                    if (rxd == 0) begin      // xác định start bit
+                    if (rxd == 0) begin      
                         state <= START;
                         cnt_baud <= 0;
                     end
@@ -51,7 +51,7 @@ module uart_rx #(parameter fclk = 5000000)(
 
                 START: begin
                     if (cnt_baud == baud_cycle/2) begin
-                        if (rxd == 0) begin  // xác nhận start bit
+                        if (rxd == 0) begin  
                             state <= DATA;
                             bit_idx <= 0;
                             parity_calc <= 0;
@@ -66,11 +66,11 @@ module uart_rx #(parameter fclk = 5000000)(
                 DATA: begin
                     if (cnt_baud == baud_cycle) begin
                         cnt_baud <= 0;
-                        data_reg <= {rxd, data_reg[7:1]}; // dịch phải data_reg
+                        data_reg <= {rxd, data_reg[7:1]}; 
                         parity_calc <= parity_calc ^ rxd;
                         bit_idx <= bit_idx + 1;
                         if (bit_idx == 7)
-                            state <= parity_en ? PARITY : STOP;
+                            state <= parity ? PARITY : STOP;
                     end else
                         cnt_baud <= cnt_baud + 1;
                 end
@@ -78,10 +78,10 @@ module uart_rx #(parameter fclk = 5000000)(
                 PARITY: begin
                     if (cnt_baud == baud_cycle) begin
                         cnt_baud <= 0;
-                        if (parity_calc == rxd)    // parity 
+                        if (parity_calc == rxd)   
                             state <= STOP;
                         else
-                            state <= IDLE;   // error 
+                            state <= IDLE;    
                     end else
                         cnt_baud <= cnt_baud + 1;
                 end

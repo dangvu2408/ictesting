@@ -1,5 +1,5 @@
 Analysis & Synthesis report for tx_uart
-Thu Nov  6 23:52:39 2025
+Sat Nov  8 11:22:00 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -13,13 +13,15 @@ Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Inverted Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Parameter Settings for User Entity Instance: Top-level Entity: |tx_uart
- 12. Post-Synthesis Netlist Statistics for Top Partition
- 13. Elapsed Time Per Partition
- 14. Analysis & Synthesis Messages
+  8. State Machine - |tx_uart|state
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |tx_uart
+ 14. Post-Synthesis Netlist Statistics for Top Partition
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
 
 
 
@@ -46,15 +48,15 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov  6 23:52:39 2025           ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov  8 11:22:00 2025           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; tx_uart                                         ;
 ; Top-level Entity Name              ; tx_uart                                         ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 73                                              ;
-;     Total combinational functions  ; 73                                              ;
-;     Dedicated logic registers      ; 30                                              ;
-; Total registers                    ; 30                                              ;
+; Total logic elements               ; 87                                              ;
+;     Total combinational functions  ; 87                                              ;
+;     Dedicated logic registers      ; 36                                              ;
+; Total registers                    ; 36                                              ;
 ; Total pins                         ; 17                                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -166,13 +168,13 @@ on the Quartus Prime software download page.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                     ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                       ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
-; tx_uart.v                        ; yes             ; User Verilog HDL File  ; D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                             ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
+; tx_uart.v                        ; yes             ; User Verilog HDL File  ; D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -180,20 +182,20 @@ on the Quartus Prime software download page.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 73        ;
+; Estimated Total logic elements              ; 87        ;
 ;                                             ;           ;
-; Total combinational functions               ; 73        ;
+; Total combinational functions               ; 87        ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 20        ;
-;     -- 3 input functions                    ; 35        ;
-;     -- <=2 input functions                  ; 18        ;
+;     -- 4 input functions                    ; 24        ;
+;     -- 3 input functions                    ; 32        ;
+;     -- <=2 input functions                  ; 31        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 50        ;
-;     -- arithmetic mode                      ; 23        ;
+;     -- normal mode                          ; 60        ;
+;     -- arithmetic mode                      ; 27        ;
 ;                                             ;           ;
-; Total registers                             ; 30        ;
-;     -- Dedicated logic registers            ; 30        ;
+; Total registers                             ; 36        ;
+;     -- Dedicated logic registers            ; 36        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 17        ;
@@ -201,9 +203,9 @@ on the Quartus Prime software download page.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 30        ;
-; Total fan-out                               ; 354       ;
-; Average fan-out                             ; 2.58      ;
+; Maximum fan-out                             ; 36        ;
+; Total fan-out                               ; 414       ;
+; Average fan-out                             ; 2.64      ;
 +---------------------------------------------+-----------+
 
 
@@ -212,9 +214,34 @@ on the Quartus Prime software download page.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |tx_uart                   ; 73 (73)             ; 30 (30)                   ; 0           ; 0            ; 0       ; 0         ; 17   ; 0            ; |tx_uart            ; tx_uart     ; work         ;
+; |tx_uart                   ; 87 (87)             ; 36 (36)                   ; 0           ; 0            ; 0       ; 0         ; 17   ; 0            ; |tx_uart            ; tx_uart     ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++------------------------------------------------------------------------------+
+; State Machine - |tx_uart|state                                               ;
++-------------+-----------+------------+-------------+------------+------------+
+; Name        ; state.PAR ; state.DATA ; state.START ; state.IDLE ; state.STOP ;
++-------------+-----------+------------+-------------+------------+------------+
+; state.IDLE  ; 0         ; 0          ; 0           ; 0          ; 0          ;
+; state.START ; 0         ; 0          ; 1           ; 1          ; 0          ;
+; state.DATA  ; 0         ; 1          ; 0           ; 1          ; 0          ;
+; state.PAR   ; 1         ; 0          ; 0           ; 1          ; 0          ;
+; state.STOP  ; 0         ; 0          ; 0           ; 1          ; 1          ;
++-------------+-----------+------------+-------------+------------+------------+
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; state~9                               ; Lost fanout        ;
+; state~10                              ; Lost fanout        ;
+; Total Number of Removed Registers = 2 ;                    ;
++---------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -222,12 +249,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 30    ;
-; Number of registers using Synchronous Clear  ; 14    ;
+; Total registers                              ; 36    ;
+; Number of registers using Synchronous Clear  ; 19    ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 30    ;
+; Number of registers using Asynchronous Clear ; 27    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 11    ;
+; Number of registers using Clock Enable       ; 27    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -237,7 +264,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; txd~reg0                               ; 1       ;
+; txd~reg0                               ; 2       ;
 ; Total number of inverted registers = 1 ;         ;
 +----------------------------------------+---------+
 
@@ -247,9 +274,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |tx_uart|data_reg[0]       ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |tx_uart|cnt_tbaud[3]      ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |tx_uart|cnt_symbol[3]     ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |tx_uart|bit_cnt[2]        ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 7 LEs                ; 14 LEs                 ; Yes        ; |tx_uart|shift_reg[0]      ;
+; 6:1                ; 16 bits   ; 64 LEs        ; 16 LEs               ; 48 LEs                 ; Yes        ; |tx_uart|baud_cnt[2]       ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 
 
@@ -269,22 +296,26 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 17                          ;
-; cycloneiii_ff         ; 30                          ;
-;     CLR               ; 5                           ;
-;     CLR SCLR          ; 14                          ;
-;     ENA CLR           ; 11                          ;
-; cycloneiii_lcell_comb ; 74                          ;
-;     arith             ; 23                          ;
-;         2 data inputs ; 13                          ;
-;         3 data inputs ; 10                          ;
-;     normal            ; 51                          ;
+; cycloneiii_ff         ; 36                          ;
+;     CLR               ; 7                           ;
+;     ENA               ; 7                           ;
+;     ENA CLR           ; 1                           ;
+;     ENA CLR SCLR      ; 19                          ;
+;     plain             ; 2                           ;
+; cycloneiii_lcell_comb ; 88                          ;
+;     arith             ; 27                          ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 23                          ;
+;         3 data inputs ; 3                           ;
+;     normal            ; 61                          ;
+;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 2                           ;
-;         2 data inputs ; 4                           ;
-;         3 data inputs ; 25                          ;
-;         4 data inputs ; 20                          ;
+;         2 data inputs ; 5                           ;
+;         3 data inputs ; 29                          ;
+;         4 data inputs ; 24                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 3.00                        ;
+; Max LUT depth         ; 13.10                       ;
+; Average LUT depth     ; 5.86                        ;
 +-----------------------+-----------------------------+
 
 
@@ -303,36 +334,38 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Thu Nov  6 23:52:31 2025
+    Info: Processing started: Sat Nov  8 11:21:52 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off tx_uart -c tx_uart
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tx_uart.v
-    Info (12023): Found entity 1: tx_uart File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 1
+    Info (12023): Found entity 1: tx_uart File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 1
 Info (12127): Elaborating entity "tx_uart" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(16): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 16
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(17): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 17
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(18): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 18
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(19): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 19
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(20): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 20
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(21): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 21
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(22): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 22
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(43): truncated value with size 32 to match size of target (1) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 43
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(73): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 73
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(81): truncated value with size 32 to match size of target (4) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 81
-Warning (10230): Verilog HDL assignment warning at tx_uart.v(111): truncated value with size 32 to match size of target (1) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 111
-Info (13000): Registers with preset signals will power-up high File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_0_0410_basic/systemverilog/tx_uart.v Line: 8
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(16): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 16
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(17): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 17
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(18): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 18
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(19): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 19
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(20): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 20
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(21): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 21
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(22): truncated value with size 32 to match size of target (14) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 22
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(63): truncated value with size 32 to match size of target (16) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 63
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(72): truncated value with size 32 to match size of target (16) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 72
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(76): truncated value with size 32 to match size of target (4) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 76
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(84): truncated value with size 32 to match size of target (16) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 84
+Warning (10230): Verilog HDL assignment warning at tx_uart.v(93): truncated value with size 32 to match size of target (16) File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 93
+Info (13000): Registers with preset signals will power-up high File: D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v Line: 8
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
+Info (17049): 2 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 90 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 105 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 15 input pins
     Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 73 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4845 megabytes
-    Info: Processing ended: Thu Nov  6 23:52:39 2025
+    Info (21061): Implemented 88 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Sat Nov  8 11:22:00 2025
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:18
 

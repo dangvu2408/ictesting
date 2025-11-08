@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/simulation/questa
+vtx_uart
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v
+!s110 1762574956
+!i10b 1
+!s100 Hd4JfETL9kD6B6WK]9W1@1
+If5:TdO@zY^A_9Jj1D1]Ag1
+R0
+w1762572213
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v
+!i122 0
+L0 1 102
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2024.1;79
+r1
+!s85 0
+31
+!s108 1762574956.000000
+!s107 D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog|D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/simulation/qsim
+vhard_block
+Z1 2tx_uart.vo
+Z2 !s110 1762580899
+!i10b 1
+!s100 3G:FSTaWCzGGhCPCbndC[2
+I;94Z;ZXCaME4NP40R?jc21
+R0
+Z3 w1762580895
+Z4 8tx_uart.vo
+Z5 Ftx_uart.vo
+!i122 6
+L0 2630 34
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2024.1;79
+r1
+!s85 0
+31
+Z8 !s108 1762580899.000000
+Z9 !s107 tx_uart.vo|
+Z10 !s90 -work|work|tx_uart.vo|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vtx_uart
+R1
+R2
+!i10b 1
+!s100 DJOJ;BY?XciXd2`lY>MjS0
+I[1Wi8ZA>A9lH]f1ORU<QO0
+R0
+R3
+R4
+R5
+!i122 6
+L0 32 2597
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vtx_uart_vlg_vec_tst
+2Waveform.vwf.vt
+R2
+!i10b 1
+!s100 >?A3>Qmo1`c>FkDWIg:DC3
+Ig65BBbHK?N5aNL>^ZPCG?2
+R0
+R3
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 7
+L0 30 113
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 0
+R11
+R12

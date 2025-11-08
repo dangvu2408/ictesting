@@ -1,0 +1,28 @@
+# do tx_uart.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 12:48:19 on Nov 08,2025
+# vlog -work work tx_uart.vo 
+# -- Compiling module tx_uart
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	tx_uart
+# End time: 12:48:19 on Nov 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+# Start time: 12:48:19 on Nov 08,2025
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module tx_uart_vlg_vec_tst
+# 
+# Top level modules:
+# 	tx_uart_vlg_vec_tst
+# End time: 12:48:19 on Nov 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.tx_uart_vlg_vec_tst 
+# Start time: 12:48:19 on Nov 08,2025
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 12:48:20 on Nov 08,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

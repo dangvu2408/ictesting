@@ -12,7 +12,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "parity",
+					"name" : "di_rdy",
 					"strict" : false
 				},
 				{
@@ -24,7 +24,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "baud[2]",
+					"name" : "baud[1]",
 					"strict" : false
 				},
 				{
@@ -32,15 +32,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "baud[1]",
+					"name" : "baud[2]",
 					"strict" : false
 				},
 				{
 					"name" : "data_in[0]",
-					"strict" : false
-				},
-				{
-					"name" : "di_rdy",
 					"strict" : false
 				},
 				{
@@ -69,6 +65,10 @@
 				},
 				{
 					"name" : "data_in[7]",
+					"strict" : false
+				},
+				{
+					"name" : "parity",
 					"strict" : false
 				}
 			]
