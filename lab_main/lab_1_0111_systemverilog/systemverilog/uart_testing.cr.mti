@@ -5,11 +5,25 @@ QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 Top level modules:
 	tx_uart_tb
 
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/rx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/rx_uart.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module rx_uart
+
+Top level modules:
+	rx_uart
+
 } {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/rx_uart_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_1_0111_systemverilog\systemverilog\rx_uart_tb.v}
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
 -- Compiling module rx_uart_tb
 
 Top level modules:
 	rx_uart_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_uart.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tx_uart
+
+Top level modules:
+	tx_uart
 
 } {} {}}

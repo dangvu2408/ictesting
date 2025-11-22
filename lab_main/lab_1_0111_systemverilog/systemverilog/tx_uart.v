@@ -80,7 +80,7 @@ module tx_uart #(parameter fclk = 5000000) (
 
                 PAR: begin
                     txd <= parity_bit;
-                    if (baud_cnt < baud_cycle-1) baud_cnt <= baud_cnt + 1;
+                    if (baud_cnt < baud_cycle - 1) baud_cnt <= baud_cnt + 1;
                     else begin
                         baud_cnt <= 0;
                         state <= STOP;
@@ -89,7 +89,7 @@ module tx_uart #(parameter fclk = 5000000) (
 
                 STOP: begin
                     txd <= 1;
-                    if (baud_cnt < baud_cycle-1) baud_cnt <= baud_cnt + 1;
+                    if (baud_cnt < baud_cycle - 1) baud_cnt <= baud_cnt + 1;
                     else begin
                         send_e <= 1;
                         state <= IDLE;

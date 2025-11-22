@@ -11,21 +11,21 @@ module rx_uart #(parameter fclk = 5000000)(
     reg [13:0] baud_cycle;
     always @(baud) begin
         case (baud)
-            0: baud_cycle = fclk/4800;
-            1: baud_cycle = fclk/9600;
-            2: baud_cycle = fclk/19200;
-            3: baud_cycle = fclk/38400;
-            4: baud_cycle = fclk/57600;
-            5: baud_cycle = fclk/115200;
-            default: baud_cycle = fclk/9600;
+            0: baud_cycle = 1042;
+            1: baud_cycle = 521;
+            2: baud_cycle = 260;
+            3: baud_cycle = 130;
+            4: baud_cycle = 87;
+            5: baud_cycle = 43;
+            default: baud_cycle = 521;
         endcase
     end
 
-    localparam IDLE  = 0,
-               START = 1,
-               DATA  = 2,
-               PARITY= 3,
-               STOP  = 4;
+    localparam IDLE   = 0,
+               START  = 1,
+               DATA   = 2,
+               PARITY = 3,
+               STOP   = 4;
 
     reg [2:0] state = IDLE;
     reg [13:0] cnt_baud = 0;
@@ -50,7 +50,7 @@ module rx_uart #(parameter fclk = 5000000)(
                 end
 
                 START: begin
-                    if (cnt_baud == baud_cycle/2) begin
+                    if (cnt_baud == baud_cycle >> 1) begin
                         if (rxd == 0) begin  
                             state <= DATA;
                             bit_idx <= 0;
