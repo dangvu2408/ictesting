@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Sample_clk",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_b",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_Baud_Rate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_Baud_Rate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Sel_Baud_Rate[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

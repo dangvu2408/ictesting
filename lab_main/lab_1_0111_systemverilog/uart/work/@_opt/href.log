@@ -1,3 +1,0 @@
-BEGIN 1:rx_uart:fast:work
-    tick_pulse :  1:rx_uart_tb:fast:work
-END 

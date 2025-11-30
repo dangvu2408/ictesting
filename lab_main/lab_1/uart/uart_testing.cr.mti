@@ -1,0 +1,61 @@
+D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_1\uart\main\test_01\tx_uart_tb.v}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tb_tx_uart
+
+Top level modules:
+	tb_tx_uart
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module rx_uart
+-- Compiling module Control_Unit_RX
+-- Compiling module Datapath_Unit_RX
+
+Top level modules:
+	rx_uart
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module Baud_gen
+
+Top level modules:
+	Baud_gen
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module rx_uart_tb
+
+Top level modules:
+	rx_uart_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module uart_top
+
+Top level modules:
+	uart_top
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module Baud_gen_tb
+
+Top level modules:
+	Baud_gen_tb
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module tx_uart
+-- Compiling module Control_Unit_TX
+-- Compiling module Datapath_Unit_TX
+
+Top level modules:
+	tx_uart
+
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling module uart_top_tb
+
+Top level modules:
+	uart_top_tb
+
+} {} {}}
