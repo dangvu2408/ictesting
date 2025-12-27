@@ -1,61 +1,34 @@
-D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart_tb.v {1 {vlog -work work -vopt -stats=none {D:\backup_later\ET4356\QuestaSim\lab_main\lab_1\uart\main\test_01\tx_uart_tb.v}
+D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv {2 {vlog -work work -vopt -sv -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tb_tx_uart
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv(10): (vlog-2244) Variable 'abc' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+-- Compiling package implicant_constrain_sv_unit
+-- Compiling module tb_ABC
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv(10): (vlog-2244) Variable 'abc' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv(12): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 
 Top level modules:
-	tb_tx_uart
+	tb_ABC
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv {2 {vlog -work work -vopt -sv -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module rx_uart
--- Compiling module Control_Unit_RX
--- Compiling module Datapath_Unit_RX
+-- Compiling package inline_constrain_sv_unit
+-- Compiling module constraint_example_1
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 
 Top level modules:
-	rx_uart
+	constraint_example_1
 
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v
+} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv {2 {vlog -work work -vopt -sv -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv
 QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module Baud_gen
+-- Compiling package randomization_sv_unit
+-- Compiling module constraint_example
+** Warning: D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 
 Top level modules:
-	Baud_gen
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module rx_uart_tb
-
-Top level modules:
-	rx_uart_tb
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module uart_top
-
-Top level modules:
-	uart_top
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module Baud_gen_tb
-
-Top level modules:
-	Baud_gen_tb
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module tx_uart
--- Compiling module Control_Unit_TX
--- Compiling module Datapath_Unit_TX
-
-Top level modules:
-	tx_uart
-
-} {} {}} D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v {1 {vlog -work work -vopt -stats=none D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v
-QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
--- Compiling module uart_top_tb
-
-Top level modules:
-	uart_top_tb
+	constraint_example
 
 } {} {}}

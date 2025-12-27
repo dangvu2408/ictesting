@@ -35,21 +35,36 @@ module rx_uart_tb;
     end
 
     reg testcase_byte [0:10]; // được init từ trước
+    reg testcase_byte_sec [0:10]; // được init từ trước
     reg testcase_byte_random [0:10]; // được tạo ngẫu nhiên bằng hàm
     integer i;
 
     initial begin 
-        testcase_byte[0] = 1'b0;
-        testcase_byte[1] = 1'b1;
-        testcase_byte[2] = 1'b0;
-        testcase_byte[3] = 1'b1;
-        testcase_byte[4] = 1'b0;
-        testcase_byte[5] = 1'b1;
-        testcase_byte[6] = 1'b0;
-        testcase_byte[7] = 1'b1;
-        testcase_byte[8] = 1'b0;
-        testcase_byte[9] = 1'b0;
-        testcase_byte[10] = 1'b1;
+        testcase_byte[0]  = 1'b0; // change the value here
+        testcase_byte[1]  = 1'b1; // change the value here
+        testcase_byte[2]  = 1'b0; // change the value here
+        testcase_byte[3]  = 1'b1; // change the value here
+        testcase_byte[4]  = 1'b0; // change the value here
+        testcase_byte[5]  = 1'b1; // change the value here
+        testcase_byte[6]  = 1'b0; // change the value here
+        testcase_byte[7]  = 1'b1; // change the value here
+        testcase_byte[8]  = 1'b0; // change the value here
+        testcase_byte[9]  = 1'b0; // change the value here
+        testcase_byte[10] = 1'b1; // change the value here
+    end // tạo dữ liệu
+
+    initial begin 
+        testcase_byte_sec[0]  = 1'b0; // change the value here
+        testcase_byte_sec[1]  = 1'b1; // change the value here
+        testcase_byte_sec[2]  = 1'b1; // change the value here
+        testcase_byte_sec[3]  = 1'b0; // change the value here
+        testcase_byte_sec[4]  = 1'b0; // change the value here
+        testcase_byte_sec[5]  = 1'b0; // change the value here
+        testcase_byte_sec[6]  = 1'b0; // change the value here
+        testcase_byte_sec[7]  = 1'b1; // change the value here
+        testcase_byte_sec[8]  = 1'b1; // change the value here
+        testcase_byte_sec[9]  = 1'b0; // change the value here
+        testcase_byte_sec[10] = 1'b1; // change the value here
     end // tạo dữ liệu
 
     initial begin
@@ -77,9 +92,121 @@ module rx_uart_tb;
         rst_n = 1'b1; 
         # (tclk * 16);
 
+        // Guide: If you want to test a specific testcase, simply uncomment that testcase.
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 1: Receive separate datasets ==========================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
         for (i = 0; i < 12; i = i + 1) begin
             send_byte(testcase_byte[i]);
         end
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+
+
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 2: Receive consecutive datasets ==========================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
+        for (i = 0; i < 12; i = i + 1) begin
+            send_byte(testcase_byte[i]);
+        end
+        for (i = 0; i < 12; i = i + 1) begin
+            send_byte(testcase_byte_sec[i]);
+        end
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+
+
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 3: Receive random datasets ==========================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
+        for (i = 0; i < 12; i = i + 1) begin
+            send_byte(testcase_byte_random[i]);
+        end
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 4: Transmit boundary data sets =========================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
+        send_byte(1'b0);
+        send_byte(1'b1);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b0);
+        send_byte(1'b1);
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 5: Change the data width ===============================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
+            // Change the parameter
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+
+
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  SUBFEATURE 3 - TESTCASE 6: Reset during receiving ===========================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+        /*           // REMOVE THE COMMENT HERE
+
+            send_byte(testcase_byte[0]);
+            send_byte(testcase_byte[1]);
+            send_byte(testcase_byte[2]);
+            send_byte(testcase_byte[3]);
+            send_byte(testcase_byte[4]);
+            send_byte(testcase_byte[5]);
+
+            // reset 
+            rst_n = 0;
+            #10;
+
+            send_byte(testcase_byte[6]);
+            send_byte(testcase_byte[7]);
+            send_byte(testcase_byte[8]);            
+            send_byte(testcase_byte[9]);
+            send_byte(testcase_byte[10]);
+
+
+        */           // REMOVE THE COMMENT HERE
+    /*  --------------------------------------------------------------------------------------------------*/
+    /*  ================================================================================================  */
+    /*  --------------------------------------------------------------------------------------------------*/
+    
         
         # (tclk * 16);
 

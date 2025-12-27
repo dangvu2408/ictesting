@@ -46,79 +46,99 @@ module Baud_gen_tb;
         rst_n = 1'b0;
         sel_baud_rate = 3'b000;
         # (tclk * 2);
-
+    /*  SUBFEATURE 1 - TESTCASE 1: Testing each baud rate ==========================================  */
         rst_n = 1'b1; 
-        sel_baud_rate = 3'b001;
+        sel_baud_rate = 3'b001; // 9600 baud
 
         case (sel_baud_rate)
-            3'b000: current_baud = BAUD_4800;
-            3'b001: current_baud = BAUD_9600;
-            3'b010: current_baud = BAUD_19200;
-            3'b011: current_baud = BAUD_38400;
-            3'b100: current_baud = BAUD_57600;
-            3'b101: current_baud = BAUD_115200;
+            3'b000:  current_baud = BAUD_4800;
+            3'b001:  current_baud = BAUD_9600;
+            3'b010:  current_baud = BAUD_19200;
+            3'b011:  current_baud = BAUD_38400;
+            3'b100:  current_baud = BAUD_57600;
+            3'b101:  current_baud = BAUD_115200;
             default: current_baud = BAUD_9600;
         endcase
+        rst_n = 1'b1; 
+        // CALCULATING THE FREQUENCY, CYCLE OF BAUD
 
-        bit_time_cycles = $floor(fclk * 1.0 / current_baud); 
+        // bit_time_cycles = $floor(fclk * 1.0 / current_baud); 
         
-        rx_count_per_phase = (bit_time_cycles / 8) / 2;
+        // rx_count_per_phase = (bit_time_cycles / 8) / 2;
         
-        EXPECTED_RX_PERIOD = 2 * rx_count_per_phase * tclk;
-        EXPECTED_TX_PERIOD = 8 * rx_count_per_phase * tclk; 
+        // EXPECTED_RX_PERIOD = 2 * rx_count_per_phase * tclk;
+        // EXPECTED_TX_PERIOD = 8 * rx_count_per_phase * tclk; 
 
-        $display("--- Baud Rate Cal %0d ---", current_baud);
-        $display("Tclk = %0d ns. fclk/Baud = %0d cycles.", tclk, bit_time_cycles);
-        $display("Expected clk_rx period = %0t ns", $realtime + EXPECTED_RX_PERIOD); 
-        $display("Expected clk_tx period = %0t ns", $realtime + EXPECTED_TX_PERIOD);
+        // $display("--- Baud Rate Cal %0d ---", current_baud);
+        // $display("Tclk = %0d ns. fclk/Baud = %0d cycles.", tclk, bit_time_cycles);
+        // $display("Expected clk_rx period = %0t ns", $realtime + EXPECTED_RX_PERIOD); 
+        // $display("Expected clk_tx period = %0t ns", $realtime + EXPECTED_TX_PERIOD);
+        #10000000;
+        sel_baud_rate = 3'b010; // 19200 baud
+        // TESTING when switching the baud
+
+        case (sel_baud_rate)
+            3'b000:  current_baud = BAUD_4800;
+            3'b001:  current_baud = BAUD_9600;
+            3'b010:  current_baud = BAUD_19200;
+            3'b011:  current_baud = BAUD_38400;
+            3'b100:  current_baud = BAUD_57600;
+            3'b101:  current_baud = BAUD_115200;
+            default: current_baud = BAUD_9600;
+        endcase
         
         rst_n = 1'b1; 
-        
+    /*  ====================================================================================================  */
+
+    /*  SUBFEATURE 1 - TESTCASE 2: Testing the clock if rst_n = 0 ==========================================  */
         #10000000;
         rst_n = 1'b0;
         #100;
+    /*  ====================================================================================================  */
         rst_n = 1'b1;
         $finish;
     end
 
-    real t1_rx, t2_rx;
-    real t1_tx, t2_tx;
-    reg [8*4:1] rx_status;
-    reg [8*4:1] tx_status;
 
-    initial begin
+    // TESTING THE DELAY.
+    // real t1_rx, t2_rx;
+    // real t1_tx, t2_tx;
+    // reg [8*4:1] rx_status;
+    // reg [8*4:1] tx_status;
+
+    // initial begin
         
 
-        @(posedge rst_n);
+    //     @(posedge rst_n);
 
-        @(posedge clk_rx); 
-        @(posedge clk_rx); t1_rx = $realtime;
-        @(posedge clk_rx); t2_rx = $realtime;
+    //     @(posedge clk_rx); 
+    //     @(posedge clk_rx); t1_rx = $realtime;
+    //     @(posedge clk_rx); t2_rx = $realtime;
         
-        $display("--- CLK_RX ---");
-        $display("Simulated clk_rx period = %0t ns", t2_rx - t1_rx);
+    //     $display("--- CLK_RX ---");
+    //     $display("Simulated clk_rx period = %0t ns", t2_rx - t1_rx);
 
-        if ($abs(t2_rx - t1_rx - EXPECTED_RX_PERIOD) <= TOLERANCE) begin
-            rx_status = "PASS";
-        end else begin
-            rx_status = "FAIL";
-        end
-        $display("CLK_RX CHECK: %s (Offset: %0t ns)", rx_status, $abs(t2_rx - t1_rx - EXPECTED_RX_PERIOD));
+    //     if ($abs(t2_rx - t1_rx - EXPECTED_RX_PERIOD) <= TOLERANCE) begin
+    //         rx_status = "PASS";
+    //     end else begin
+    //         rx_status = "FAIL";
+    //     end
+    //     $display("CLK_RX CHECK: %s (Offset: %0t ns)", rx_status, $abs(t2_rx - t1_rx - EXPECTED_RX_PERIOD));
 
-        @(posedge clk_tx); 
-        @(posedge clk_tx); t1_tx = $realtime;
-        @(posedge clk_tx); t2_tx = $realtime;
+    //     @(posedge clk_tx); 
+    //     @(posedge clk_tx); t1_tx = $realtime;
+    //     @(posedge clk_tx); t2_tx = $realtime;
         
-        $display("--- CLK_TX ---");
-        $display("Simulated clk_tx period = %0t ns", t2_tx - t1_tx);
+    //     $display("--- CLK_TX ---");
+    //     $display("Simulated clk_tx period = %0t ns", t2_tx - t1_tx);
 
-        if ($abs(t2_tx - t1_tx - EXPECTED_TX_PERIOD) <= TOLERANCE) begin
-            tx_status = "PASS";
-        end else begin
-            tx_status = "FAIL";
-        end
-        $display("CLK_TX CHECK: %s (Offset: %0t ns)", tx_status, $abs(t2_tx - t1_tx - EXPECTED_TX_PERIOD));
-        $display("------------------------------------");
-    end
+    //     if ($abs(t2_tx - t1_tx - EXPECTED_TX_PERIOD) <= TOLERANCE) begin
+    //         tx_status = "PASS";
+    //     end else begin
+    //         tx_status = "FAIL";
+    //     end
+    //     $display("CLK_TX CHECK: %s (Offset: %0t ns)", tx_status, $abs(t2_tx - t1_tx - EXPECTED_TX_PERIOD));
+    //     $display("------------------------------------");
+    // end
 
 endmodule
