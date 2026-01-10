@@ -1,0 +1,56 @@
+$date
+	Sat Jan 10 01:34:54 2026
+$end
+$version
+	QuestaSim Version 2024.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module asertion_variable_delay $end
+$var reg 1 ! clk $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var integer 32 $ cfg_delay $end
+
+$scope begin a_1 $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+b100 $
+$end
+#5
+1!
+#10
+0!
+#15
+0"
+1#
+1!
+#20
+0!
+#25
+1"
+1!
+#30
+0!
+#35
+0"
+1!
+#40
+0!
+#45
+1"
+0#
+1!
+#50
+0!

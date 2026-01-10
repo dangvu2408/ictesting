@@ -9,6 +9,82 @@ R0
 R1
 R2
 R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
+R0
+R1
+R2
+R1
 R2
 R1
 R0
@@ -413,905 +489,737 @@ R1
 !i10f 100
 cModel Technology
 Z4 dD:/backup_later/ET4340/prj/main_prj/base_prj/VLSI_FINAL
+v_assertion
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/assertion.sv
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1767962358
+!i10b 1
+!s100 5`4>zSK[>UhD3ZG4zL5=D0
+Ic^6HUOVUT0UlcSlR@5=2E0
+S1
+Z7 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart
+w1766826086
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/assertion.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/assertion.sv
+!i122 174
+L0 1 30
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2024.1;79
+r1
+!s85 0
+31
+!i113 0
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+n@_assertion
 T_opt
-!s110 1766822250
-VEXI<mhLg_Ecd6;NQHl>lM1
-04 10 4 work tbBusTrans fast 0
-=1-b48c9d17587f-694f9169-29b-cb40
+!s110 1767984192
+Vc<K^[amjbJ?QZJnAic>cW3
+04 9 4 work tb_cons_1 fast 0
+=1-b48c9d17587f-69614c3f-17a-3664
 R1
-Z5 !s12f OEM100
-Z6 !s12b OEM100
-Z7 !s124 OEM100
-Z8 o-quiet -auto_acc_if_foreign -work work +acc
-Z9 tCvgOpt 0
+Z12 !s12f OEM100
+Z13 !s12b OEM100
+Z14 !s124 OEM100
+Z15 o-quiet -auto_acc_if_foreign -work work +acc
+R11
 n@_opt
-Z10 OL;O;2024.1;79
+Z16 OL;O;2024.1;79
 T_opt1
 !s110 1763806253
 VVj;g>=8acZ=gHFCbFBJiV2
 04 13 4 work tx_rx_uart_tb fast 0
 =1-b48c9d17587f-69218c2c-2d8-5524
 R1
-R5
-R6
-R7
-R8
-R9
+R12
+R13
+R14
+R15
+R11
 n@_opt1
-R10
+R16
 R4
 T_opt2
-!s110 1766822238
-VzE]DoL?@G?9kk0C7=RKWZ3
-04 10 4 work tbMemBlock fast 0
-=1-b48c9d17587f-694f915e-c9-9550
+!s110 1767983687
+V26PeZh=MReclfeUNCNHSW0
+04 23 4 work asertion_variable_delay fast 0
+=1-b48c9d17587f-69614a47-26d-1af8
 R1
+R12
+R13
+R14
+R15
+R11
+n@_opt2
+R16
+R4
+vasertion_10
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_1.sv
 R5
-R6
+Z17 !s110 1767962359
+!i10b 1
+!s100 `b2::=PN=T=:BCBo1;RzP0
+IMmZkAeB;8MO`0WF^[5;[l0
+S1
 R7
+w1767962356
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_1.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_1.sv
+!i122 186
+Z18 L0 1 13
 R8
 R9
-n@_opt2
+r1
+!s85 0
+31
+!i113 0
 R10
-R4
-vbaud_gen
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen.v
-Z11 !s110 1764002043
-!i10b 1
-!s100 ?=R=AI<zhnjMUlJ`_QBnQ0
-IXEc4`YzmM_NaXKzG;C1CK0
-Z12 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart
-w1764001552
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen.v
-!i122 573
-L0 1 61
-Z13 VDg1SIo80bB@j0V0VzS_@n1
-Z14 OL;L;2024.1;79
-r1
-!s85 0
-31
-!i113 0
-Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R9
-vBaud_gen
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v
-Z16 !s110 1765683960
-!i10b 1
-!s100 Y4hIm8m4V7PenVl]zIXED2
-I1C1;I3CBNL4N[<Tcg;Xg41
-R12
-w1764329857
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen.v
-!i122 1210
-L0 1 72
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@baud_gen
-vBaud_gen_tb
-Z17 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v
-R16
-!i10b 1
-!s100 5Ez`HJCO6Oz=P_^>2l3_b2
-Ig3;WX;z>SG;b9=JR@I<4:2
-R12
-w1765680841
-Z18 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v
-Z19 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/Baud_gen_tb.v
-!i122 1211
-L0 3 142
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@baud_gen_tb
-vbaud_gen_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen_tb.v
 R11
+vasertion_11
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_2.sv
+R5
+R17
 !i10b 1
-!s100 EVI?C]^;2g3c>W6:9NI_K0
-I]?CnG;ldEImU8geA6`^7P2
-R12
-w1764001141
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/baud_gen_tb.v
-!i122 574
-L0 3 49
-R13
-R14
+!s100 z[S12NToMIBYmB1412m:>2
+I>ZgIXEb<3h@4iiT[bz2U]2
+S1
+R7
+w1767962351
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_2.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_2.sv
+!i122 187
+R18
+R8
+R9
 r1
 !s85 0
 31
 !i113 0
-R15
-R9
-vbaud_gen_uart
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/baud_gen_uart.v
-!s110 1764001558
+R10
+R11
+vasertion_12
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_3.sv
+R5
+R17
 !i10b 1
-!s100 8TCbnaYPnEPV56NZNoAI33
-I5D^VBPAT3VhhOLBI1MGeL0
-R12
-w1763805624
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/baud_gen_uart.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/baud_gen_uart.v
-!i122 537
-L0 1 51
-R13
-R14
+!s100 m^NYZTG8Ei^jIYX7LznFJ3
+IWOXIZ^E98id;ncd2:6^ah1
+S1
+R7
+w1767962347
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_3.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/sva_build_3.sv
+!i122 188
+R18
+R8
+R9
 r1
 !s85 0
 31
 !i113 0
-R15
+R10
+R11
+vasertion_13
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/disable_iff.sv
+R5
+R6
+!i10b 1
+!s100 VdgMnn3nPZiG1P3VHHnOF3
+IMD4ahn_NeUBFdXPQeK:?10
+S1
+R7
+w1767962272
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/disable_iff.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/disable_iff.sv
+!i122 177
+L0 1 31
+R8
 R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_14
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/ended_iff.sv
+R5
+R6
+!i10b 1
+!s100 Bzkefg0Dn_2mne1i2Hg:n2
+IO<7b43Ho2FDzeRWdZEmS>3
+S1
+R7
+w1767962103
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/ended_iff.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/ended_iff.sv
+!i122 178
+L0 1 26
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex01
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_1.sv
+R5
+R6
+!i10b 1
+!s100 JULnT;e4650O6`^dDFX^A1
+IUUi8ec1C6`ZlhM?H>J?On0
+S1
+R7
+w1766827973
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_1.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_1.sv
+!i122 179
+Z19 L0 2 24
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex02
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_2.sv
+R5
+R17
+!i10b 1
+!s100 l>=O0C;75]F1FW5XjAW_j2
+I3V8W?Hb21?7l2P>>;RN`F1
+S1
+R7
+w1766827994
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_2.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_2.sv
+!i122 180
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex03
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_3.sv
+R5
+R17
+!i10b 1
+!s100 flH`5CaeM5lX@GM7a1SQV1
+I7J2m8iH>?M=IYh9R8f]EF1
+S1
+R7
+w1766828082
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_3.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_3.sv
+!i122 181
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex04
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_4.sv
+R5
+R17
+!i10b 1
+!s100 QRc7h?7Won<ehTdmAAK6]0
+Ib>5?=__]]GMHBF=QC64PO2
+S1
+R7
+w1766828094
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_4.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_4.sv
+!i122 182
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex05
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_5.sv
+R5
+R17
+!i10b 1
+!s100 f^^49lZKd42@lRj4`i;g41
+IHXI?=9iUlC8Gf=K=Y>NAb3
+S1
+R7
+w1767960679
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_5.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_5.sv
+!i122 183
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex06
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_6.sv
+R5
+R17
+!i10b 1
+!s100 0oo:3G;immGm63d27QaAC2
+I:VG14XSP7D^H<@z2a7[lf1
+S1
+R7
+w1767960706
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_6.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_6.sv
+!i122 184
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_ex07
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_7.sv
+R5
+R17
+!i10b 1
+!s100 ^ahaJ]S`T>]UJ52XT7^Ni1
+IVz_@hPD:fjj<[M;48[kmc0
+S1
+R7
+w1767961301
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_7.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/implication_operator_7.sv
+!i122 185
+R19
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+vasertion_variable_delay
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/delay_sva.sv
+R5
+R6
+!i10b 1
+!s100 QNVcI=X92]0R;9^jSnJ<i3
+IMXBS6WG?l2QS]iOnM^KfY1
+S1
+R7
+w1767962157
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/delay_sva.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/delay_sva.sv
+!i122 175
+L0 1 36
+R8
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
 Xbus_protocol_sv_unit
-Z20 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/bus_protocol.sv
-Z21 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z22 !s110 1766822225
-VHM50J0NgXAPKBD@Ro2COk1
+Z20 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/bus_protocol.sv
+R5
+Z21 !s110 1767961150
+VGNlMlF]QCMDdWDWzajh290
 r1
 !s85 0
 !i10b 1
 !s100 N0N`m0C<@_]^ho:Xo3`113
-IHM50J0NgXAPKBD@Ro2COk1
+IGNlMlF]QCMDdWDWzajh290
 !i103 1
 S1
-R12
-Z23 w1766822202
-Z24 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/bus_protocol.sv
-Z25 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/bus_protocol.sv
-!i122 1272
-L0 5 0
-R14
+R7
+Z22 w1767960106
+Z23 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/bus_protocol.sv
+Z24 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/bus_protocol.sv
+!i122 139
+Z25 L0 5 0
+R9
 31
 !i113 0
-Z26 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R9
-vconstraint_example
-Z27 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv
-R21
-DXx4 work 21 randomization_sv_unit 0 22 NOJ9Bb678AS0g8z[8@iAL0
-Z28 !s110 1766822224
-R13
+R10
+R11
+Xclass_define_sv_unit
+Z26 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/class_define.sv
+R5
+Z27 !s110 1767983478
+V]WknH8MI8@R^YR__<c@n50
 r1
 !s85 0
 !i10b 1
-!s100 Sga>a6d_5F2hm1dj:o2YR3
-Ii2D1OZHHlTUYCB[04@?KW3
-!s105 randomization_sv_unit
-S1
-R12
-Z29 w1766818008
-Z30 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv
-Z31 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/randomization.sv
-!i122 1266
-L0 20 8
-R14
-31
-!i113 0
-R26
-R9
-vconstraint_example_1
-Z32 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv
-R21
-DXx4 work 24 inline_constrain_sv_unit 0 22 ^L]W`kjd:@45[C[EJn?i]3
-R28
-R13
-r1
-!s85 0
-!i10b 1
-!s100 ;=^obnB4dE9X=5]SXl3?a0
-IhX^U=z_QJE7O3OMPX`cBZ2
-!s105 inline_constrain_sv_unit
-S1
-R12
-Z33 w1766818449
-Z34 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv
-Z35 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/inline_constrain.sv
-!i122 1267
-L0 10 16
-R14
-31
-!i113 0
-R26
-R9
-vControl_Unit
-Z36 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/tx_uart.v
-Z37 !s110 1764001918
-!i10b 1
-!s100 ca>8lc:J>dao2fY>UEk1W2
-I[@b]V^DGfjUV>ST0RJPNT0
-R12
-Z38 w1763997257
-Z39 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/tx_uart.v
-Z40 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/tx_uart.v
-!i122 570
-L0 37 56
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@control_@unit
-vControl_Unit_RX
-Z41 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v
-Z42 !s110 1765683961
-!i10b 1
-!s100 FYO0f0?7]8:HIQIgKGkjz0
-IEeeok3@Vj6NF``eb@IDAH2
-R12
-Z43 w1764463834
-Z44 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v
-Z45 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart.v
-!i122 1212
-L0 71 102
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@control_@unit_@r@x
-vControl_Unit_TX
-Z46 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v
-R16
-!i10b 1
-!s100 NE[EzPR4XR47<;70I=Wk<0
-I^:4kk8M7gHJZBaAKL33LD3
-R12
-Z47 w1764463835
-Z48 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v
-Z49 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart.v
-!i122 1208
-L0 49 64
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@control_@unit_@t@x
-vDatapath_Unit
-R36
-R37
-!i10b 1
-!s100 zP6]Xm0b8WA_HanPUhP@81
-IR301@BcMI?iWC7YMf:CWW3
-R12
-R38
-R39
-R40
-!i122 570
-L0 94 34
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@datapath_@unit
-vDatapath_Unit_RX
-R41
-R42
-!i10b 1
-!s100 z7>Si[Z[ednXM9Vi=iGY>3
-I7H<bELll<6IJ9VL1XR]5D3
-R12
-R43
-R44
-R45
-!i122 1212
-L0 175 75
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@datapath_@unit_@r@x
-vDatapath_Unit_TX
-R46
-R16
-!i10b 1
-!s100 @>=43oei0jG<bgk9W`fH]2
-Ij`E4c36]6cBjG7P=l6KbK0
-R12
-R47
-R48
-R49
-!i122 1208
-L0 114 51
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-n@datapath_@unit_@t@x
-Xforeach_constraint_sv_unit
-Z50 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/foreach_constraint.sv
-R21
-R22
-VIn@z2MIH>B:G?5KCNeR0c1
-r1
-!s85 0
-!i10b 1
-!s100 k^HGEQo_aN51:liaTXbUi0
-IIn@z2MIH>B:G?5KCNeR0c1
+!s100 lNYeli9Z9__b5:KINafK71
+I]WknH8MI8@R^YR__<c@n50
 !i103 1
 S1
-R12
-Z51 w1766819355
-Z52 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/foreach_constraint.sv
-Z53 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/foreach_constraint.sv
-!i122 1269
-Z54 L0 1 0
-R14
+R7
+Z28 w1767973581
+Z29 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/class_define.sv
+Z30 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/class_define.sv
+!i122 287
+Z31 L0 1 0
+R9
 31
 !i113 0
-R26
+R10
+R11
+vdesign_ex
+2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/design_ex.sv
+R5
+R6
+!i10b 1
+!s100 c9ZhA7<YEFo^GnMo^Z_N03
+II6eec3lT;0J9aB9jDTaQ=1
+S1
+R7
+w1767962236
+8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/design_ex.sv
+FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/assertion/design_ex.sv
+!i122 176
+L0 1 7
+R8
 R9
-Ximplicant_constrain_sv_unit
-Z55 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+Xforeach_cons_2_sv_unit
+Z32 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons_2.sv
+R5
 R21
-R28
-Vb9_I^j5=9Elij1C?DZaP<3
+VO0^52F:4?^G[GQdXmCNU<3
 r1
 !s85 0
 !i10b 1
-!s100 GPYaM[8iIMVeoLzFAmFiW0
-Ib9_I^j5=9Elij1C?DZaP<3
+!s100 ij2X7aKALVfA4cU7<SkT<3
+IO0^52F:4?^G[GQdXmCNU<3
 !i103 1
 S1
-R12
-Z56 w1766818842
-Z57 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv
-Z58 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/implicant_constrain.sv
-!i122 1268
-R54
-R14
-31
-!i113 0
-R26
-R9
-Xinline_constrain_sv_unit
-R32
-R21
-R28
-V^L]W`kjd:@45[C[EJn?i]3
-r1
-!s85 0
-!i10b 1
-!s100 CS=L4:@I6iUD@NZAPMVnz1
-I^L]W`kjd:@45[C[EJn?i]3
-!i103 1
-S1
-R12
-R33
-R34
-R35
-!i122 1267
-R54
-R14
-31
-!i113 0
-R26
-R9
-Xpractical_constraint_sv_unit
-Z59 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/practical_constraint.sv
-R21
-R22
-V]92hJnAQWL`BFIzGNjb^_2
-r1
-!s85 0
-!i10b 1
-!s100 3PO;7:16HzH@Pb>ce1A=J1
-I]92hJnAQWL`BFIzGNjb^_2
-!i103 1
-S1
-R12
-Z60 w1766822089
-Z61 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/practical_constraint.sv
-Z62 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/practical_constraint.sv
-!i122 1273
-R54
-R14
-31
-!i113 0
-R26
-R9
-Xrandomization_sv_unit
-R27
-R21
-R28
-VNOJ9Bb678AS0g8z[8@iAL0
-r1
-!s85 0
-!i10b 1
-!s100 [cK`gliUQ;UVYiDa1JNNL0
-INOJ9Bb678AS0g8z[8@iAL0
-!i103 1
-S1
-R12
-R29
-R30
+R7
+Z33 w1767957805
+Z34 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons_2.sv
+Z35 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons_2.sv
+!i122 141
 R31
-!i122 1266
-R54
-R14
+R9
 31
 !i113 0
-R26
-R9
-vrx_uart
-R41
-R42
-!i10b 1
-!s100 mmf]PaTKLHO6bSUb[879S1
-I]nf7Xfhh;DZl?a>_8>@<N0
-R12
-R43
-R44
-R45
-!i122 1212
-L0 1 69
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vrx_uart_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v
-Z63 !s110 1765687778
-!i10b 1
-!s100 ]DbNmO3@7`J9^;ohNd?Ui2
-IUePX?F0DZ[G6L9CnDZRoV1
-R12
-w1765687030
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/rx_uart_tb.v
-!i122 1217
-L0 3 215
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-Xsolve_before_sv_unit
-Z64 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/solve_before.sv
+R10
+R11
+Xforeach_cons_sv_unit
+Z36 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons.sv
+R5
 R21
-R22
-V]1nC`TCeT:o22A;1E6RP=3
+VI:QQ@;L;Y6iALXlF@^8A33
 r1
 !s85 0
 !i10b 1
-!s100 F??80z]^2KbcjSVgi9M1l1
-I]1nC`TCeT:o22A;1E6RP=3
+!s100 Zg:cYjP=zUWeEM;X?dcEk3
+II:QQ@;L;Y6iALXlF@^8A33
 !i103 1
 S1
-R12
-Z65 w1766819707
-Z66 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/solve_before.sv
-Z67 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/solve_before.sv
-!i122 1270
-R54
-R14
+R7
+Z37 w1767957535
+Z38 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons.sv
+Z39 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/foreach_cons.sv
+!i122 140
+R31
+R9
 31
 !i113 0
-R26
-R9
-Xstatic_constraint_sv_unit
-Z68 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/static_constraint.sv
+R10
+R11
+Ximpli_cons_sv_unit
+Z40 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/impli_cons.sv
+R5
 R21
-R22
-VS9D=Ff<ZRWXbPBYT?CPj=1
+V7@Tc3P:STg3I[_4eb[zkY2
 r1
 !s85 0
 !i10b 1
-!s100 a34e_N1M[B?kSgMJ>OVeo1
-IS9D=Ff<ZRWXbPBYT?CPj=1
+!s100 2nRf2U=15iPljzH<DH<]c1
+I7@Tc3P:STg3I[_4eb[zkY2
 !i103 1
 S1
-R12
-Z69 w1766821651
-Z70 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/static_constraint.sv
-Z71 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/uart_apb/interface_oop/static_constraint.sv
-!i122 1271
-R54
-R14
+R7
+Z41 w1767957409
+Z42 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/impli_cons.sv
+Z43 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/impli_cons.sv
+!i122 142
+R31
+R9
 31
 !i113 0
-R26
-R9
-vtb_ABC
-R55
-R21
-DXx4 work 27 implicant_constrain_sv_unit 0 22 b9_I^j5=9Elij1C?DZaP<3
-R28
-R13
+R10
+R11
+Xinheritance_sv_unit
+Z44 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/inheritance.sv
+R5
+R27
+V^BT_?Ib2_dA5>lgXEo93;3
 r1
 !s85 0
 !i10b 1
-!s100 0EYHmb:VYFI12n1B<HfnX2
-I9QYSXJY]XD<]ZEQ;JnXAH0
-!s105 implicant_constrain_sv_unit
+!s100 0U1:F=8=YLPf;Kj1mMHK=0
+I^BT_?Ib2_dA5>lgXEo93;3
+!i103 1
 S1
-R12
-R56
-R57
-R58
-!i122 1268
-L0 8 9
-R14
+R7
+Z45 w1767953300
+Z46 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/inheritance.sv
+Z47 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/inheritance.sv
+!i122 288
+R31
+R9
 31
 !i113 0
-R26
-R9
-ntb_@a@b@c
-vtb_ABC_1
-R50
+R10
+R11
+Xinline_cons_sv_unit
+Z48 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/inline_cons.sv
+R5
 R21
-DXx4 work 26 foreach_constraint_sv_unit 0 22 In@z2MIH>B:G?5KCNeR0c1
-R22
-R13
+VI[?m0Eh2fA`N==BVH]i5g3
 r1
 !s85 0
 !i10b 1
-!s100 ShRDfI;L2]9gDCAVlF9V91
-IQVgBM6Zloz:9meG[h7<JS3
-!s105 foreach_constraint_sv_unit
+!s100 lkdkT=XZ3P1GW<OfSHlaK0
+II[?m0Eh2fA`N==BVH]i5g3
+!i103 1
 S1
-R12
-R51
-R52
-R53
-!i122 1269
-L0 10 7
-R14
+R7
+Z49 w1767956448
+Z50 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/inline_cons.sv
+Z51 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/inline_cons.sv
+!i122 143
+R31
+R9
 31
 !i113 0
-R26
-R9
-ntb_@a@b@c_1
-vtb_ABC_2
-R64
-R21
-DXx4 work 20 solve_before_sv_unit 0 22 ]1nC`TCeT:o22A;1E6RP=3
-R22
-R13
+R10
+R11
+Xnamespace_collison_sv_unit
+Z52 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/namespace_collison.sv
+R5
+Z53 DXx4 work 4 pcka 0 22 ]H`1TS0UlVXdRN[Lc_gFj3
+R27
+VY_k`=:C7CbY=VTjhYDD_W2
 r1
 !s85 0
 !i10b 1
-!s100 XYzm:=z2;n4PPUcO6S;lK2
-I?E`>0bAioCHLDDRUDMLY02
-!s105 solve_before_sv_unit
+!s100 >oL>4=]1gTl`>U8n3Mb`_1
+IY_k`=:C7CbY=VTjhYDD_W2
+!i103 1
 S1
-R12
-R65
-R66
-R67
-!i122 1270
-L0 11 9
-R14
-31
-!i113 0
-R26
-R9
-ntb_@a@b@c_2
-vtb_ABC_3
-R68
-R21
-DXx4 work 25 static_constraint_sv_unit 0 22 S9D=Ff<ZRWXbPBYT?CPj=1
-R22
-R13
-r1
-!s85 0
-!i10b 1
-!s100 jCOe8W:;FkARF[Flj4AcS3
-ImAzzA2D`AY5PbUkWEc2iz2
-!s105 static_constraint_sv_unit
-S1
-R12
-R69
-R70
-R71
-!i122 1271
-L0 8 11
-R14
-31
-!i113 0
-R26
-R9
-ntb_@a@b@c_3
-vtb_Baud_gen
-R17
-!s110 1764328650
-!i10b 1
-!s100 Wi;A@BRc5bR=6PD>Z4lS90
-I^D8@V=>8QkHZHcH8CXT1L1
-R12
-w1764328617
-R18
-R19
-!i122 621
-L0 3 44
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-ntb_@baud_gen
-vtb_tx_uart
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart_tb.v
-R63
-!i10b 1
-!s100 Xg[25kJ20gX8;<T6O13@[0
-I]EEH5GgU[g`oJFbKiZ7dj0
-R12
-w1765684163
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/tx_uart_tb.v
-!i122 1216
-L0 3 302
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vtbBusTrans
-R20
-R21
-DXx4 work 20 bus_protocol_sv_unit 0 22 HM50J0NgXAPKBD@Ro2COk1
-R22
-R13
-r1
-!s85 0
-!i10b 1
-!s100 i84U9S<LV[S>dQLiW4W6Y3
-I]Iz15Gjoa7US5:7Jc`N:22
-!s105 bus_protocol_sv_unit
-S1
-R12
-R23
-R24
+R7
+Z54 w1767953418
+Z55 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/namespace_collison.sv
+Z56 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/namespace_collison.sv
+!i122 289
 R25
-!i122 1272
-L0 23 21
-R14
+R9
 31
 !i113 0
-R26
-R9
-ntb@bus@trans
-vtbMemBlock
-R59
-R21
-DXx4 work 28 practical_constraint_sv_unit 0 22 ]92hJnAQWL`BFIzGNjb^_2
-R22
-R13
+R10
+R11
+Xoverview_sv_unit
+Z57 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/overview.sv
+R5
+R27
+VGnWNb[7Cn4bBAnL3LCPdk3
 r1
 !s85 0
 !i10b 1
-!s100 UkiK1@0gCWGC5AkPCoiWd3
-I9CAboTSPn[jL9g4ciJcH01
-!s105 practical_constraint_sv_unit
+!s100 ]^LM^o^HcRo3KicFcbzF43
+IGnWNb[7Cn4bBAnL3LCPdk3
+!i103 1
 S1
-R12
-R60
-R61
-R62
-!i122 1273
-L0 31 9
-R14
+R7
+Z58 w1767971797
+Z59 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/overview.sv
+Z60 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/overview.sv
+!i122 290
+R31
+R9
 31
 !i113 0
-R26
-R9
-ntb@mem@block
-vtx_rx_uart_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_rx_uart_tb.v
-Z72 !s110 1764001559
-!i10b 1
-!s100 U<>:9Y9:LoYcTk;4`9VYX1
-I:dnVa`GSOZOj^z0>nYLnb0
-R12
-w1763826337
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_rx_uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_rx_uart_tb.v
-!i122 540
-L0 3 77
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vtx_uart
-R46
-R16
-!i10b 1
-!s100 zN[`VWBBUie=OmTd8JFOO1
-I[6ZEC0fH0E^_a1]H98BH33
-R12
-R47
-R48
-R49
-!i122 1208
-L0 1 47
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vtx_uart_fixed
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/uart/tx_uart.v
-!s110 1763728970
-!i10b 1
-!s100 ]KzV]DQI?P7<P3O[h]QTo1
-I2V8Q@=Kc^?N>C2X5WG7mf3
-Z73 dD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/uart
-w1763728959
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/uart/tx_uart.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/uart/tx_uart.v
-!i122 70
-L0 1 137
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vtx_uart_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_uart_tb.v
-R72
-!i10b 1
-!s100 g7<E7Nc`0anM_;P@2`djZ2
-I3?k]Am8AOR_?]Mk<J4aE@1
-R12
-w1763800512
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/tx_uart_tb.v
-!i122 542
-L0 3 65
-R13
-R14
-r1
-!s85 0
-31
-!i113 0
-R15
-R9
-vuart
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart.v
+R10
 R11
+Xparameterized_sv_unit
+Z61 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/parameterized.sv
+R5
+R27
+VJT`P`OMLV6<39RXK?mabI1
+r1
+!s85 0
 !i10b 1
-!s100 Q1PP9[O28g?l5@oV@UM2g2
-ISPPVKkmB^=BJ3I_N_Kj2C1
-R12
-w1764001971
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart.v
-!i122 577
-L0 1 56
-R13
-R14
+!s100 ;M]<9a^<18h7k_zkaTYz41
+IJT`P`OMLV6<39RXK?mabI1
+!i103 1
+S1
+R7
+Z62 w1767953323
+Z63 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/parameterized.sv
+Z64 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/parameterized.sv
+!i122 291
+R31
+R9
+31
+!i113 0
+R10
+R11
+Xpcka
+R52
+R5
+R27
+!i10b 1
+!s100 TnSEY@K5@aH^Q:ME_Pk]_1
+I]H`1TS0UlVXdRN[Lc_gFj3
+S1
+R7
+R54
+R55
+R56
+!i122 289
+R31
+V]H`1TS0UlVXdRN[Lc_gFj3
+R9
 r1
 !s85 0
 31
 !i113 0
-R15
-R9
-vuart_loopback_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_rx_uart_tb.v
-!s110 1763799086
+R10
+R11
+Xpolymorphism_pkg
+Z65 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/polymorphism.sv
+R5
+R27
 !i10b 1
-!s100 Hclm58YfaIjVPG44EY[:10
-IiNJ3nQESJ4<[=`]UAHAgc0
+!s100 UBFk7YYO8To1F<@;j<TMU0
+I6ofLEQzJN6J>DM476L<?W0
+S1
+R7
+Z66 w1767977845
+Z67 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/polymorphism.sv
+Z68 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/oop/polymorphism.sv
+!i122 292
+R31
+V6ofLEQzJN6J>DM476L<?W0
+R9
+r1
+!s85 0
+31
+!i113 0
+R10
+R11
+Xpractical_cons_1_sv_unit
+Z69 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_1.sv
+R5
+R21
+VlAFnoilJGJgl;BnTgj]>K2
+r1
+!s85 0
+!i10b 1
+!s100 A?OB`BJ_cV53_8c11kHod1
+IlAFnoilJGJgl;BnTgj]>K2
+!i103 1
+S1
+R7
+Z70 w1767958857
+Z71 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_1.sv
+Z72 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_1.sv
+!i122 144
+Z73 L0 3 0
+R9
+31
+!i113 0
+R10
+R11
+Xpractical_cons_2_sv_unit
+Z74 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_2.sv
+R5
+R21
+VSZVU]?[f:@22ChJ]6];Yi0
+r1
+!s85 0
+!i10b 1
+!s100 @8N:_W=NOW@N<57`aJzGB1
+ISZVU]?[f:@22ChJ]6];Yi0
+!i103 1
+S1
+R7
+Z75 w1767961147
+Z76 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_2.sv
+Z77 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_2.sv
+!i122 145
 R73
-w1763799068
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_rx_uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1_0111_systemverilog/systemverilog/tx_rx_uart_tb.v
-!i122 318
-L0 3 83
-R13
-R14
-r1
-!s85 0
+R9
 31
 !i113 0
-R15
-R9
-vuart_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart_tb.v
+R10
 R11
-!i10b 1
-!s100 JCWzjSXHcD9^NI<TO>gd]3
-IJ1`:dS;n=@H^U08=7B57d1
-R12
-w1764001970
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/uart_tb.v
-!i122 578
-L0 3 87
-R13
-R14
+Xpractical_cons_3_sv_unit
+Z78 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_3.sv
+R5
+R21
+V]SdU`g372Z@Z8aB]iR7Dg0
 r1
 !s85 0
+!i10b 1
+!s100 D=k=:O=2;A@GHnb6P_CBk3
+I]SdU`g372Z@Z8aB]iR7Dg0
+!i103 1
+S1
+R7
+Z79 w1767960095
+Z80 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_3.sv
+Z81 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_3.sv
+!i122 146
+R73
+R9
 31
 !i113 0
-R15
-R9
-vuart_top
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v
-R42
-!i10b 1
-!s100 75eE2E8iJgGR]Tfcb18gR0
-ISd8mzg9d?_k?[VQQ?_FI61
-R12
-w1764391462
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top.v
-!i122 1214
-L0 1 54
-R13
-R14
+R10
+R11
+Xpractical_cons_4_sv_unit
+Z82 2D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_4.sv
+R5
+R21
+VI=JdhnANj2E4C;BK6:TkW1
 r1
 !s85 0
-31
-!i113 0
-R15
-R9
-vuart_top_tb
-2D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v
-R63
 !i10b 1
-!s100 oW?WB1>c[zlcRG5kVf8SB0
-ISEdYJk;FJP:Cd6MdT6`I00
-R12
-w1765687772
-8D:/backup_later/ET4356/QuestaSim/lab_main/lab_1/uart/main/test_01/uart_top_tb.v
-FD:/backup_later/ET4356/QuestaSim/lab_main/lab_1/u
+!s100 5Cf0]hDASn[<;<U>b:>WC0
+II=JdhnANj2E4C;BK6:TkW1
+!i103 1
+S1
+R7
+Z83 w1767960964
+Z84 8D:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_4.sv
+Z85 FD:/backup_later/ET4356/QuestaSim/lab_main/lab_2/sv_tutorial/randomization_constraint/practical_cons_4.sv
+!i122 147
+R
